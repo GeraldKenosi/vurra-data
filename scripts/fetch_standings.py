@@ -18,8 +18,13 @@ def ensure_folders():
 
 
 def load_tracked_leagues():
+    if not LEAGUES_FILE.exists():
+        raise FileNotFoundError(f"Tracked leagues file not found: {LEAGUES_FILE}")
+
     with open(LEAGUES_FILE, "r", encoding="utf-8") as f:
-        return json.load(f).get("response", [])
+        data = json.load(f)
+
+    return data.get("response", [])
 
 
 def fetch_standings(league_id, season):
@@ -34,6 +39,7 @@ def fetch_standings(league_id, season):
 
 
 def save_json(data, filepath):
+    filepath.parent.mkdir(parents=True, exist_ok=True)
     with open(filepath, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
 
@@ -47,6 +53,10 @@ def main():
         return
 
     leagues = load_tracked_leagues()
+
+    if not leagues:
+        print("ERROR: No leagues found in tracked_leagues.json")
+        return
 
     for league in leagues:
         league_id = league["league_id"]

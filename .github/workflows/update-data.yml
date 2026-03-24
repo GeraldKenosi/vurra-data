@@ -33,6 +33,11 @@ jobs:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         run: python scripts/fetch_data.py
 
+      - name: Show files after tracked leagues
+        run: |
+          echo "Listing data folder"
+          ls -R data || true
+
       - name: Fetch standings
         env:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
