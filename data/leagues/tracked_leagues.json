@@ -1,0 +1,32 @@
+{
+  "response": [
+    {
+      "key": "premier_league",
+      "league_id": 39,
+      "league_name": "Premier League",
+      "country": "England",
+      "season": 2025
+    },
+    {
+      "key": "bundesliga",
+      "league_id": 78,
+      "league_name": "Bundesliga",
+      "country": "Germany",
+      "season": 2025
+    },
+    {
+      "key": "la_liga",
+      "league_id": 140,
+      "league_name": "La Liga",
+      "country": "Spain",
+      "season": 2025
+    },
+    {
+      "key": "serie_a",
+      "league_id": 135,
+      "league_name": "Serie A",
+      "country": "Italy",
+      "season": 2025
+    }
+  ]
+}
