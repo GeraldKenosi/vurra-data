@@ -22,27 +22,27 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run fetch_data
+      - name: Fetch tracked leagues
         env:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         run: python scripts/fetch_data.py
 
-      - name: Run standings fetch
+      - name: Fetch standings
         env:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
-        run: python scripts/predict_matches.py
+        run: python scripts/fetch_standings.py
 
-      - name: Run fixtures fetch
+      - name: Fetch fixtures
         env:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         run: python scripts/build_json.py
 
-      - name: Run recent form fetch
+      - name: Fetch recent form
         env:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         run: python scripts/fetch_recent_form.py
 
-      - name: Run prediction engine
+      - name: Build predictions
         env:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         run: python scripts/predict_matches.py
