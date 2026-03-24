@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-03-24T22:48:50.551943+00:00",
+  "total_matches": 0,
+  "featured_count": 0,
+  "by_league": {
+    "premier_league": {
+      "display_name": "Premier League",
+      "count": 0
+    },
+    "la_liga": {
+      "display_name": "La Liga",
+      "count": 0
+    },
+    "bundesliga": {
+      "display_name": "Bundesliga",
+      "count": 0
+    },
+    "serie_a": {
+      "display_name": "Serie A",
+      "count": 0
+    }
+  },
+  "featured": [],
+  "response": []
+}
