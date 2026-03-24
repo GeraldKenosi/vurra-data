@@ -61,6 +61,11 @@ jobs:
       - name: Build home summary
         run: python scripts/build_home_summary.py
 
+      - name: Show summary file
+        run: |
+          echo "Checking for home_summary.json"
+          ls -R data/predictions || true
+
       - name: Show changed files
         run: git status
 
