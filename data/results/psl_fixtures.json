@@ -1,0 +1,184 @@
+{
+  "response": [
+    {
+      "fixture": {
+        "id": 900000,
+        "date": "2026-04-06T15:00:00Z",
+        "venue": {
+          "name": "Nelson Mandela Bay Stadium, Gqeberha"
+        },
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Betway Premiership",
+        "country": "South Africa"
+      },
+      "teams": {
+        "home": {
+          "id": null,
+          "name": "Orbit College FC"
+        },
+        "away": {
+          "id": null,
+          "name": "Kaizer Chiefs"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 900001,
+        "date": "2026-04-06T17:30:00Z",
+        "venue": {
+          "name": "Princess Magogo Stadium, Durban"
+        },
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Betway Premiership",
+        "country": "South Africa"
+      },
+      "teams": {
+        "home": {
+          "id": null,
+          "name": "AmaZulu FC"
+        },
+        "away": {
+          "id": null,
+          "name": "Sekhukhune United"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 900002,
+        "date": "2026-04-07T19:30:00Z",
+        "venue": {
+          "name": "Nelson Mandela Bay Stadium, Gqeberha"
+        },
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Betway Premiership",
+        "country": "South Africa"
+      },
+      "teams": {
+        "home": {
+          "id": null,
+          "name": "Chippa United"
+        },
+        "away": {
+          "id": null,
+          "name": "Siwelele"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 900003,
+        "date": "2026-04-07T19:30:00Z",
+        "venue": {
+          "name": "Chatsworth Stadium, Chatsworth"
+        },
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Betway Premiership",
+        "country": "South Africa"
+      },
+      "teams": {
+        "home": {
+          "id": null,
+          "name": "Durban City"
+        },
+        "away": {
+          "id": null,
+          "name": "Mamelodi Sundowns"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 900004,
+        "date": "2026-04-07T19:30:00Z",
+        "venue": {
+          "name": "Seshego Stadium, Polokwane"
+        },
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Betway Premiership",
+        "country": "South Africa"
+      },
+      "teams": {
+        "home": {
+          "id": null,
+          "name": "Magesi FC"
+        },
+        "away": {
+          "id": null,
+          "name": "Marumo Gallants"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 900005,
+        "date": "2026-04-07T19:30:00Z",
+        "venue": {
+          "name": "Orlando Stadium, Soweto"
+        },
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Betway Premiership",
+        "country": "South Africa"
+      },
+      "teams": {
+        "home": {
+          "id": null,
+          "name": "Orlando Pirates"
+        },
+        "away": {
+          "id": null,
+          "name": "Golden Arrows"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    }
+  ]
+}

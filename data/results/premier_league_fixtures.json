@@ -269,6 +269,303 @@
         "home": null,
         "away": null
       }
+    },
+    {
+      "fixture": {
+        "id": 538107,
+        "date": "2026-04-18T11:30:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Premier League",
+        "country": "England"
+      },
+      "teams": {
+        "home": {
+          "id": 402,
+          "name": "Brentford FC"
+        },
+        "away": {
+          "id": 63,
+          "name": "Fulham FC"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 538112,
+        "date": "2026-04-18T14:00:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Premier League",
+        "country": "England"
+      },
+      "teams": {
+        "home": {
+          "id": 67,
+          "name": "Newcastle United FC"
+        },
+        "away": {
+          "id": 1044,
+          "name": "AFC Bournemouth"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 538110,
+        "date": "2026-04-18T14:00:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Premier League",
+        "country": "England"
+      },
+      "teams": {
+        "home": {
+          "id": 341,
+          "name": "Leeds United FC"
+        },
+        "away": {
+          "id": 76,
+          "name": "Wolverhampton Wanderers FC"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 538114,
+        "date": "2026-04-18T16:30:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Premier League",
+        "country": "England"
+      },
+      "teams": {
+        "home": {
+          "id": 73,
+          "name": "Tottenham Hotspur FC"
+        },
+        "away": {
+          "id": 397,
+          "name": "Brighton & Hove Albion FC"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 538108,
+        "date": "2026-04-18T19:00:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Premier League",
+        "country": "England"
+      },
+      "teams": {
+        "home": {
+          "id": 61,
+          "name": "Chelsea FC"
+        },
+        "away": {
+          "id": 66,
+          "name": "Manchester United FC"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 538113,
+        "date": "2026-04-19T13:00:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Premier League",
+        "country": "England"
+      },
+      "teams": {
+        "home": {
+          "id": 351,
+          "name": "Nottingham Forest FC"
+        },
+        "away": {
+          "id": 328,
+          "name": "Burnley FC"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 538105,
+        "date": "2026-04-19T13:00:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Premier League",
+        "country": "England"
+      },
+      "teams": {
+        "home": {
+          "id": 58,
+          "name": "Aston Villa FC"
+        },
+        "away": {
+          "id": 71,
+          "name": "Sunderland AFC"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 538109,
+        "date": "2026-04-19T13:00:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Premier League",
+        "country": "England"
+      },
+      "teams": {
+        "home": {
+          "id": 62,
+          "name": "Everton FC"
+        },
+        "away": {
+          "id": 64,
+          "name": "Liverpool FC"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 538111,
+        "date": "2026-04-19T15:30:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Premier League",
+        "country": "England"
+      },
+      "teams": {
+        "home": {
+          "id": 65,
+          "name": "Manchester City FC"
+        },
+        "away": {
+          "id": 57,
+          "name": "Arsenal FC"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 538106,
+        "date": "2026-04-20T19:00:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Premier League",
+        "country": "England"
+      },
+      "teams": {
+        "home": {
+          "id": 354,
+          "name": "Crystal Palace FC"
+        },
+        "away": {
+          "id": 563,
+          "name": "West Ham United FC"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 538116,
+        "date": "2026-04-24T19:00:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Premier League",
+        "country": "England"
+      },
+      "teams": {
+        "home": {
+          "id": 71,
+          "name": "Sunderland AFC"
+        },
+        "away": {
+          "id": 351,
+          "name": "Nottingham Forest FC"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
     }
   ]
 }

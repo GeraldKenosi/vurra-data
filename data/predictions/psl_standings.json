@@ -1,0 +1,270 @@
+{
+  "response": [
+    {
+      "league": {
+        "name": "Betway Premiership",
+        "country": "South Africa",
+        "standings": [
+          [
+            {
+              "rank": 1,
+              "points": 51,
+              "goalsDiff": 10,
+              "form": "",
+              "team": {
+                "id": 5001,
+                "name": "Orlando Pirates"
+              },
+              "all": {
+                "goals": {
+                  "for": 16,
+                  "against": 6
+                }
+              }
+            },
+            {
+              "rank": 2,
+              "points": 50,
+              "goalsDiff": 9,
+              "form": "",
+              "team": {
+                "id": 5002,
+                "name": "Mamelodi Sundowns"
+              },
+              "all": {
+                "goals": {
+                  "for": 15,
+                  "against": 6
+                }
+              }
+            },
+            {
+              "rank": 3,
+              "points": 37,
+              "goalsDiff": 0,
+              "form": "",
+              "team": {
+                "id": 5003,
+                "name": "AmaZulu FC"
+              },
+              "all": {
+                "goals": {
+                  "for": 11,
+                  "against": 11
+                }
+              }
+            },
+            {
+              "rank": 4,
+              "points": 36,
+              "goalsDiff": 0,
+              "form": "",
+              "team": {
+                "id": 5004,
+                "name": "Kaizer Chiefs"
+              },
+              "all": {
+                "goals": {
+                  "for": 10,
+                  "against": 10
+                }
+              }
+            },
+            {
+              "rank": 5,
+              "points": 35,
+              "goalsDiff": 0,
+              "form": "",
+              "team": {
+                "id": 5005,
+                "name": "Durban City"
+              },
+              "all": {
+                "goals": {
+                  "for": 10,
+                  "against": 12
+                }
+              }
+            },
+            {
+              "rank": 6,
+              "points": 34,
+              "goalsDiff": 0,
+              "form": "",
+              "team": {
+                "id": 5006,
+                "name": "Sekhukhune United"
+              },
+              "all": {
+                "goals": {
+                  "for": 9,
+                  "against": 13
+                }
+              }
+            },
+            {
+              "rank": 7,
+              "points": 29,
+              "goalsDiff": 0,
+              "form": "",
+              "team": {
+                "id": 5007,
+                "name": "Polokwane City"
+              },
+              "all": {
+                "goals": {
+                  "for": 7,
+                  "against": 14
+                }
+              }
+            },
+            {
+              "rank": 8,
+              "points": 28,
+              "goalsDiff": 0,
+              "form": "",
+              "team": {
+                "id": 5008,
+                "name": "Golden Arrows"
+              },
+              "all": {
+                "goals": {
+                  "for": 8,
+                  "against": 14
+                }
+              }
+            },
+            {
+              "rank": 9,
+              "points": 28,
+              "goalsDiff": 0,
+              "form": "",
+              "team": {
+                "id": 5009,
+                "name": "Stellenbosch FC"
+              },
+              "all": {
+                "goals": {
+                  "for": 7,
+                  "against": 15
+                }
+              }
+            },
+            {
+              "rank": 10,
+              "points": 26,
+              "goalsDiff": 0,
+              "form": "",
+              "team": {
+                "id": 5010,
+                "name": "Siwelele"
+              },
+              "all": {
+                "goals": {
+                  "for": 6,
+                  "against": 15
+                }
+              }
+            },
+            {
+              "rank": 11,
+              "points": 25,
+              "goalsDiff": 0,
+              "form": "",
+              "team": {
+                "id": 5011,
+                "name": "TS Galaxy"
+              },
+              "all": {
+                "goals": {
+                  "for": 7,
+                  "against": 15
+                }
+              }
+            },
+            {
+              "rank": 12,
+              "points": 23,
+              "goalsDiff": 0,
+              "form": "",
+              "team": {
+                "id": 5012,
+                "name": "Richards Bay"
+              },
+              "all": {
+                "goals": {
+                  "for": 5,
+                  "against": 17
+                }
+              }
+            },
+            {
+              "rank": 13,
+              "points": 20,
+              "goalsDiff": 0,
+              "form": "",
+              "team": {
+                "id": 5013,
+                "name": "Chippa United"
+              },
+              "all": {
+                "goals": {
+                  "for": 4,
+                  "against": 18
+                }
+              }
+            },
+            {
+              "rank": 14,
+              "points": 18,
+              "goalsDiff": 0,
+              "form": "",
+              "team": {
+                "id": 5014,
+                "name": "Marumo Gallants"
+              },
+              "all": {
+                "goals": {
+                  "for": 4,
+                  "against": 18
+                }
+              }
+            },
+            {
+              "rank": 15,
+              "points": 18,
+              "goalsDiff": 0,
+              "form": "",
+              "team": {
+                "id": 5015,
+                "name": "Orbit College FC"
+              },
+              "all": {
+                "goals": {
+                  "for": 5,
+                  "against": 17
+                }
+              }
+            },
+            {
+              "rank": 16,
+              "points": 14,
+              "goalsDiff": 0,
+              "form": "",
+              "team": {
+                "id": 5016,
+                "name": "Magesi FC"
+              },
+              "all": {
+                "goals": {
+                  "for": 2,
+                  "against": 19
+                }
+              }
+            }
+          ]
+        ]
+      }
+    }
+  ]
+}

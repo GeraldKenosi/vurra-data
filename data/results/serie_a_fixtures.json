@@ -539,6 +539,303 @@
         "home": null,
         "away": null
       }
+    },
+    {
+      "fixture": {
+        "id": 537140,
+        "date": "2026-04-17T16:30:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Serie A",
+        "country": "Italy"
+      },
+      "teams": {
+        "home": {
+          "id": 471,
+          "name": "US Sassuolo Calcio"
+        },
+        "away": {
+          "id": 7397,
+          "name": "Como 1907"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 537137,
+        "date": "2026-04-17T18:45:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Serie A",
+        "country": "Italy"
+      },
+      "teams": {
+        "home": {
+          "id": 108,
+          "name": "FC Internazionale Milano"
+        },
+        "away": {
+          "id": 104,
+          "name": "Cagliari Calcio"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 537142,
+        "date": "2026-04-18T13:00:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Serie A",
+        "country": "Italy"
+      },
+      "teams": {
+        "home": {
+          "id": 115,
+          "name": "Udinese Calcio"
+        },
+        "away": {
+          "id": 112,
+          "name": "Parma Calcio 1913"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 537141,
+        "date": "2026-04-18T16:00:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Serie A",
+        "country": "Italy"
+      },
+      "teams": {
+        "home": {
+          "id": 113,
+          "name": "SSC Napoli"
+        },
+        "away": {
+          "id": 110,
+          "name": "SS Lazio"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 537135,
+        "date": "2026-04-18T18:45:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Serie A",
+        "country": "Italy"
+      },
+      "teams": {
+        "home": {
+          "id": 100,
+          "name": "AS Roma"
+        },
+        "away": {
+          "id": 102,
+          "name": "Atalanta BC"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 537143,
+        "date": "2026-04-19T10:30:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Serie A",
+        "country": "Italy"
+      },
+      "teams": {
+        "home": {
+          "id": 457,
+          "name": "US Cremonese"
+        },
+        "away": {
+          "id": 586,
+          "name": "Torino FC"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 537136,
+        "date": "2026-04-19T13:00:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Serie A",
+        "country": "Italy"
+      },
+      "teams": {
+        "home": {
+          "id": 450,
+          "name": "Hellas Verona FC"
+        },
+        "away": {
+          "id": 98,
+          "name": "AC Milan"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 537139,
+        "date": "2026-04-19T16:00:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Serie A",
+        "country": "Italy"
+      },
+      "teams": {
+        "home": {
+          "id": 487,
+          "name": "AC Pisa 1909"
+        },
+        "away": {
+          "id": 107,
+          "name": "Genoa CFC"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 537138,
+        "date": "2026-04-19T18:45:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Serie A",
+        "country": "Italy"
+      },
+      "teams": {
+        "home": {
+          "id": 109,
+          "name": "Juventus FC"
+        },
+        "away": {
+          "id": 103,
+          "name": "Bologna FC 1909"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 537144,
+        "date": "2026-04-20T18:45:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Serie A",
+        "country": "Italy"
+      },
+      "teams": {
+        "home": {
+          "id": 5890,
+          "name": "US Lecce"
+        },
+        "away": {
+          "id": 99,
+          "name": "ACF Fiorentina"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 537154,
+        "date": "2026-04-24T18:45:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Serie A",
+        "country": "Italy"
+      },
+      "teams": {
+        "home": {
+          "id": 113,
+          "name": "SSC Napoli"
+        },
+        "away": {
+          "id": 457,
+          "name": "US Cremonese"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
     }
   ]
 }

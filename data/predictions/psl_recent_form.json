@@ -1,0 +1,254 @@
+{
+  "6001": {
+    "team_name": "Durban City",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Durban City"
+          },
+          "away": {
+            "id": null,
+            "name": "Richards Bay"
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 0
+        }
+      }
+    ]
+  },
+  "6002": {
+    "team_name": "Richards Bay",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Durban City"
+          },
+          "away": {
+            "id": null,
+            "name": "Richards Bay"
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 0
+        }
+      }
+    ]
+  },
+  "6003": {
+    "team_name": "Siwelele",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Siwelele"
+          },
+          "away": {
+            "id": null,
+            "name": "Orbit College FC"
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 0
+        }
+      }
+    ]
+  },
+  "6004": {
+    "team_name": "Orbit College FC",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Siwelele"
+          },
+          "away": {
+            "id": null,
+            "name": "Orbit College FC"
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 0
+        }
+      }
+    ]
+  },
+  "6005": {
+    "team_name": "Golden Arrows",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Golden Arrows"
+          },
+          "away": {
+            "id": null,
+            "name": "Sekhukhune United"
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 0
+        }
+      }
+    ]
+  },
+  "6006": {
+    "team_name": "Sekhukhune United",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Golden Arrows"
+          },
+          "away": {
+            "id": null,
+            "name": "Sekhukhune United"
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 0
+        }
+      }
+    ]
+  },
+  "6007": {
+    "team_name": "TS Galaxy",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "TS Galaxy"
+          },
+          "away": {
+            "id": null,
+            "name": "Orlando Pirates"
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 6
+        }
+      }
+    ]
+  },
+  "6008": {
+    "team_name": "Orlando Pirates",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "TS Galaxy"
+          },
+          "away": {
+            "id": null,
+            "name": "Orlando Pirates"
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 6
+        }
+      }
+    ]
+  },
+  "6009": {
+    "team_name": "Kaizer Chiefs",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Kaizer Chiefs"
+          },
+          "away": {
+            "id": null,
+            "name": "Magesi FC"
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 0
+        }
+      }
+    ]
+  },
+  "6010": {
+    "team_name": "Magesi FC",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Kaizer Chiefs"
+          },
+          "away": {
+            "id": null,
+            "name": "Magesi FC"
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 0
+        }
+      }
+    ]
+  },
+  "6011": {
+    "team_name": "Polokwane City",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Polokwane City"
+          },
+          "away": {
+            "id": null,
+            "name": "AmaZulu FC"
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 1
+        }
+      }
+    ]
+  },
+  "6012": {
+    "team_name": "AmaZulu FC",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Polokwane City"
+          },
+          "away": {
+            "id": null,
+            "name": "AmaZulu FC"
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 1
+        }
+      }
+    ]
+  }
+}
