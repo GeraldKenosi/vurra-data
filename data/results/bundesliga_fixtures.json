@@ -1,19 +1,490 @@
 {
-  "get": "fixtures",
-  "parameters": {
-    "league": "78",
-    "season": "2025",
-    "from": "2026-03-25",
-    "to": "2026-04-08",
-    "status": "NS"
-  },
-  "errors": {
-    "plan": "Free plans do not have access to this season, try from 2022 to 2024."
-  },
-  "results": 0,
-  "paging": {
-    "current": 1,
-    "total": 1
-  },
-  "response": []
+  "response": [
+    {
+      "fixture": {
+        "id": 540649,
+        "date": "2026-04-04T13:30:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Bundesliga",
+        "country": "Germany"
+      },
+      "teams": {
+        "home": {
+          "id": 17,
+          "name": "SC Freiburg"
+        },
+        "away": {
+          "id": 5,
+          "name": "FC Bayern M\u00fcnchen"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 540651,
+        "date": "2026-04-04T13:30:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Bundesliga",
+        "country": "Germany"
+      },
+      "teams": {
+        "home": {
+          "id": 2,
+          "name": "TSG 1899 Hoffenheim"
+        },
+        "away": {
+          "id": 15,
+          "name": "1. FSV Mainz 05"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 540652,
+        "date": "2026-04-04T13:30:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Bundesliga",
+        "country": "Germany"
+      },
+      "teams": {
+        "home": {
+          "id": 12,
+          "name": "SV Werder Bremen"
+        },
+        "away": {
+          "id": 721,
+          "name": "RB Leipzig"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 540653,
+        "date": "2026-04-04T13:30:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Bundesliga",
+        "country": "Germany"
+      },
+      "teams": {
+        "home": {
+          "id": 3,
+          "name": "Bayer 04 Leverkusen"
+        },
+        "away": {
+          "id": 11,
+          "name": "VfL Wolfsburg"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 540654,
+        "date": "2026-04-04T13:30:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Bundesliga",
+        "country": "Germany"
+      },
+      "teams": {
+        "home": {
+          "id": 7,
+          "name": "Hamburger SV"
+        },
+        "away": {
+          "id": 16,
+          "name": "FC Augsburg"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 540656,
+        "date": "2026-04-04T13:30:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Bundesliga",
+        "country": "Germany"
+      },
+      "teams": {
+        "home": {
+          "id": 18,
+          "name": "Borussia M\u00f6nchengladbach"
+        },
+        "away": {
+          "id": 44,
+          "name": "1. FC Heidenheim 1846"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 540650,
+        "date": "2026-04-04T16:30:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Bundesliga",
+        "country": "Germany"
+      },
+      "teams": {
+        "home": {
+          "id": 10,
+          "name": "VfB Stuttgart"
+        },
+        "away": {
+          "id": 4,
+          "name": "Borussia Dortmund"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 540655,
+        "date": "2026-04-05T13:30:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Bundesliga",
+        "country": "Germany"
+      },
+      "teams": {
+        "home": {
+          "id": 28,
+          "name": "1. FC Union Berlin"
+        },
+        "away": {
+          "id": 20,
+          "name": "FC St. Pauli 1910"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 540657,
+        "date": "2026-04-05T15:30:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Bundesliga",
+        "country": "Germany"
+      },
+      "teams": {
+        "home": {
+          "id": 19,
+          "name": "Eintracht Frankfurt"
+        },
+        "away": {
+          "id": 1,
+          "name": "1. FC K\u00f6ln"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 540665,
+        "date": "2026-04-10T18:30:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Bundesliga",
+        "country": "Germany"
+      },
+      "teams": {
+        "home": {
+          "id": 16,
+          "name": "FC Augsburg"
+        },
+        "away": {
+          "id": 2,
+          "name": "TSG 1899 Hoffenheim"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 540659,
+        "date": "2026-04-11T13:30:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Bundesliga",
+        "country": "Germany"
+      },
+      "teams": {
+        "home": {
+          "id": 4,
+          "name": "Borussia Dortmund"
+        },
+        "away": {
+          "id": 3,
+          "name": "Bayer 04 Leverkusen"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 540660,
+        "date": "2026-04-11T13:30:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Bundesliga",
+        "country": "Germany"
+      },
+      "teams": {
+        "home": {
+          "id": 11,
+          "name": "VfL Wolfsburg"
+        },
+        "away": {
+          "id": 19,
+          "name": "Eintracht Frankfurt"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 540663,
+        "date": "2026-04-11T13:30:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Bundesliga",
+        "country": "Germany"
+      },
+      "teams": {
+        "home": {
+          "id": 721,
+          "name": "RB Leipzig"
+        },
+        "away": {
+          "id": 18,
+          "name": "Borussia M\u00f6nchengladbach"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 540664,
+        "date": "2026-04-11T13:30:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Bundesliga",
+        "country": "Germany"
+      },
+      "teams": {
+        "home": {
+          "id": 44,
+          "name": "1. FC Heidenheim 1846"
+        },
+        "away": {
+          "id": 28,
+          "name": "1. FC Union Berlin"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 540658,
+        "date": "2026-04-11T16:30:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Bundesliga",
+        "country": "Germany"
+      },
+      "teams": {
+        "home": {
+          "id": 20,
+          "name": "FC St. Pauli 1910"
+        },
+        "away": {
+          "id": 5,
+          "name": "FC Bayern M\u00fcnchen"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 540662,
+        "date": "2026-04-12T13:30:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Bundesliga",
+        "country": "Germany"
+      },
+      "teams": {
+        "home": {
+          "id": 1,
+          "name": "1. FC K\u00f6ln"
+        },
+        "away": {
+          "id": 12,
+          "name": "SV Werder Bremen"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 540666,
+        "date": "2026-04-12T15:30:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Bundesliga",
+        "country": "Germany"
+      },
+      "teams": {
+        "home": {
+          "id": 10,
+          "name": "VfB Stuttgart"
+        },
+        "away": {
+          "id": 7,
+          "name": "Hamburger SV"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 540661,
+        "date": "2026-04-12T17:30:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "Bundesliga",
+        "country": "Germany"
+      },
+      "teams": {
+        "home": {
+          "id": 15,
+          "name": "1. FSV Mainz 05"
+        },
+        "away": {
+          "id": 17,
+          "name": "SC Freiburg"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    }
+  ]
 }

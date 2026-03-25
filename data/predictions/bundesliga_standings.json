@@ -1,16 +1,302 @@
 {
-  "get": "standings",
-  "parameters": {
-    "league": "78",
-    "season": "2025"
-  },
-  "errors": {
-    "plan": "Free plans do not have access to this season, try from 2022 to 2024."
-  },
-  "results": 0,
-  "paging": {
-    "current": 1,
-    "total": 1
-  },
-  "response": []
+  "response": [
+    {
+      "league": {
+        "name": "Bundesliga",
+        "country": "Germany",
+        "standings": [
+          [
+            {
+              "rank": 1,
+              "points": 70,
+              "goalsDiff": 72,
+              "form": "",
+              "team": {
+                "id": 5,
+                "name": "FC Bayern M\u00fcnchen"
+              },
+              "all": {
+                "goals": {
+                  "for": 97,
+                  "against": 25
+                }
+              }
+            },
+            {
+              "rank": 2,
+              "points": 61,
+              "goalsDiff": 30,
+              "form": "",
+              "team": {
+                "id": 4,
+                "name": "Borussia Dortmund"
+              },
+              "all": {
+                "goals": {
+                  "for": 58,
+                  "against": 28
+                }
+              }
+            },
+            {
+              "rank": 3,
+              "points": 53,
+              "goalsDiff": 20,
+              "form": "",
+              "team": {
+                "id": 10,
+                "name": "VfB Stuttgart"
+              },
+              "all": {
+                "goals": {
+                  "for": 56,
+                  "against": 36
+                }
+              }
+            },
+            {
+              "rank": 4,
+              "points": 50,
+              "goalsDiff": 18,
+              "form": "",
+              "team": {
+                "id": 721,
+                "name": "RB Leipzig"
+              },
+              "all": {
+                "goals": {
+                  "for": 53,
+                  "against": 35
+                }
+              }
+            },
+            {
+              "rank": 5,
+              "points": 50,
+              "goalsDiff": 15,
+              "form": "",
+              "team": {
+                "id": 2,
+                "name": "TSG 1899 Hoffenheim"
+              },
+              "all": {
+                "goals": {
+                  "for": 54,
+                  "against": 39
+                }
+              }
+            },
+            {
+              "rank": 6,
+              "points": 46,
+              "goalsDiff": 16,
+              "form": "",
+              "team": {
+                "id": 3,
+                "name": "Bayer 04 Leverkusen"
+              },
+              "all": {
+                "goals": {
+                  "for": 52,
+                  "against": 36
+                }
+              }
+            },
+            {
+              "rank": 7,
+              "points": 38,
+              "goalsDiff": -1,
+              "form": "",
+              "team": {
+                "id": 19,
+                "name": "Eintracht Frankfurt"
+              },
+              "all": {
+                "goals": {
+                  "for": 50,
+                  "against": 51
+                }
+              }
+            },
+            {
+              "rank": 8,
+              "points": 37,
+              "goalsDiff": -5,
+              "form": "",
+              "team": {
+                "id": 17,
+                "name": "SC Freiburg"
+              },
+              "all": {
+                "goals": {
+                  "for": 39,
+                  "against": 44
+                }
+              }
+            },
+            {
+              "rank": 9,
+              "points": 31,
+              "goalsDiff": -15,
+              "form": "",
+              "team": {
+                "id": 28,
+                "name": "1. FC Union Berlin"
+              },
+              "all": {
+                "goals": {
+                  "for": 31,
+                  "against": 46
+                }
+              }
+            },
+            {
+              "rank": 10,
+              "points": 31,
+              "goalsDiff": -17,
+              "form": "",
+              "team": {
+                "id": 16,
+                "name": "FC Augsburg"
+              },
+              "all": {
+                "goals": {
+                  "for": 33,
+                  "against": 50
+                }
+              }
+            },
+            {
+              "rank": 11,
+              "points": 30,
+              "goalsDiff": -9,
+              "form": "",
+              "team": {
+                "id": 15,
+                "name": "1. FSV Mainz 05"
+              },
+              "all": {
+                "goals": {
+                  "for": 33,
+                  "against": 42
+                }
+              }
+            },
+            {
+              "rank": 12,
+              "points": 30,
+              "goalsDiff": -9,
+              "form": "",
+              "team": {
+                "id": 7,
+                "name": "Hamburger SV"
+              },
+              "all": {
+                "goals": {
+                  "for": 31,
+                  "against": 40
+                }
+              }
+            },
+            {
+              "rank": 13,
+              "points": 29,
+              "goalsDiff": -13,
+              "form": "",
+              "team": {
+                "id": 18,
+                "name": "Borussia M\u00f6nchengladbach"
+              },
+              "all": {
+                "goals": {
+                  "for": 33,
+                  "against": 46
+                }
+              }
+            },
+            {
+              "rank": 14,
+              "points": 28,
+              "goalsDiff": -17,
+              "form": "",
+              "team": {
+                "id": 12,
+                "name": "SV Werder Bremen"
+              },
+              "all": {
+                "goals": {
+                  "for": 30,
+                  "against": 47
+                }
+              }
+            },
+            {
+              "rank": 15,
+              "points": 26,
+              "goalsDiff": -9,
+              "form": "",
+              "team": {
+                "id": 1,
+                "name": "1. FC K\u00f6ln"
+              },
+              "all": {
+                "goals": {
+                  "for": 38,
+                  "against": 47
+                }
+              }
+            },
+            {
+              "rank": 16,
+              "points": 24,
+              "goalsDiff": -20,
+              "form": "",
+              "team": {
+                "id": 20,
+                "name": "FC St. Pauli 1910"
+              },
+              "all": {
+                "goals": {
+                  "for": 24,
+                  "against": 44
+                }
+              }
+            },
+            {
+              "rank": 17,
+              "points": 21,
+              "goalsDiff": -22,
+              "form": "",
+              "team": {
+                "id": 11,
+                "name": "VfL Wolfsburg"
+              },
+              "all": {
+                "goals": {
+                  "for": 35,
+                  "against": 57
+                }
+              }
+            },
+            {
+              "rank": 18,
+              "points": 15,
+              "goalsDiff": -34,
+              "form": "",
+              "team": {
+                "id": 44,
+                "name": "1. FC Heidenheim 1846"
+              },
+              "all": {
+                "goals": {
+                  "for": 27,
+                  "against": 61
+                }
+              }
+            }
+          ]
+        ]
+      }
+    }
+  ]
 }

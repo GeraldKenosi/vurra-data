@@ -1,16 +1,334 @@
 {
-  "get": "standings",
-  "parameters": {
-    "league": "140",
-    "season": "2025"
-  },
-  "errors": {
-    "plan": "Free plans do not have access to this season, try from 2022 to 2024."
-  },
-  "results": 0,
-  "paging": {
-    "current": 1,
-    "total": 1
-  },
-  "response": []
+  "response": [
+    {
+      "league": {
+        "name": "La Liga",
+        "country": "Spain",
+        "standings": [
+          [
+            {
+              "rank": 1,
+              "points": 73,
+              "goalsDiff": 50,
+              "form": "",
+              "team": {
+                "id": 81,
+                "name": "FC Barcelona"
+              },
+              "all": {
+                "goals": {
+                  "for": 78,
+                  "against": 28
+                }
+              }
+            },
+            {
+              "rank": 2,
+              "points": 69,
+              "goalsDiff": 37,
+              "form": "",
+              "team": {
+                "id": 86,
+                "name": "Real Madrid CF"
+              },
+              "all": {
+                "goals": {
+                  "for": 63,
+                  "against": 26
+                }
+              }
+            },
+            {
+              "rank": 3,
+              "points": 58,
+              "goalsDiff": 20,
+              "form": "",
+              "team": {
+                "id": 94,
+                "name": "Villarreal CF"
+              },
+              "all": {
+                "goals": {
+                  "for": 54,
+                  "against": 34
+                }
+              }
+            },
+            {
+              "rank": 4,
+              "points": 57,
+              "goalsDiff": 21,
+              "form": "",
+              "team": {
+                "id": 78,
+                "name": "Club Atl\u00e9tico de Madrid"
+              },
+              "all": {
+                "goals": {
+                  "for": 49,
+                  "against": 28
+                }
+              }
+            },
+            {
+              "rank": 5,
+              "points": 44,
+              "goalsDiff": 7,
+              "form": "",
+              "team": {
+                "id": 90,
+                "name": "Real Betis Balompi\u00e9"
+              },
+              "all": {
+                "goals": {
+                  "for": 44,
+                  "against": 37
+                }
+              }
+            },
+            {
+              "rank": 6,
+              "points": 41,
+              "goalsDiff": 6,
+              "form": "",
+              "team": {
+                "id": 558,
+                "name": "RC Celta de Vigo"
+              },
+              "all": {
+                "goals": {
+                  "for": 41,
+                  "against": 35
+                }
+              }
+            },
+            {
+              "rank": 7,
+              "points": 38,
+              "goalsDiff": -1,
+              "form": "",
+              "team": {
+                "id": 92,
+                "name": "Real Sociedad de F\u00fatbol"
+              },
+              "all": {
+                "goals": {
+                  "for": 44,
+                  "against": 45
+                }
+              }
+            },
+            {
+              "rank": 8,
+              "points": 38,
+              "goalsDiff": -6,
+              "form": "",
+              "team": {
+                "id": 82,
+                "name": "Getafe CF"
+              },
+              "all": {
+                "goals": {
+                  "for": 25,
+                  "against": 31
+                }
+              }
+            },
+            {
+              "rank": 9,
+              "points": 38,
+              "goalsDiff": -9,
+              "form": "",
+              "team": {
+                "id": 77,
+                "name": "Athletic Club"
+              },
+              "all": {
+                "goals": {
+                  "for": 32,
+                  "against": 41
+                }
+              }
+            },
+            {
+              "rank": 10,
+              "points": 37,
+              "goalsDiff": -1,
+              "form": "",
+              "team": {
+                "id": 79,
+                "name": "CA Osasuna"
+              },
+              "all": {
+                "goals": {
+                  "for": 34,
+                  "against": 35
+                }
+              }
+            },
+            {
+              "rank": 11,
+              "points": 37,
+              "goalsDiff": -8,
+              "form": "",
+              "team": {
+                "id": 80,
+                "name": "RCD Espanyol de Barcelona"
+              },
+              "all": {
+                "goals": {
+                  "for": 36,
+                  "against": 44
+                }
+              }
+            },
+            {
+              "rank": 12,
+              "points": 35,
+              "goalsDiff": -10,
+              "form": "",
+              "team": {
+                "id": 95,
+                "name": "Valencia CF"
+              },
+              "all": {
+                "goals": {
+                  "for": 32,
+                  "against": 42
+                }
+              }
+            },
+            {
+              "rank": 13,
+              "points": 34,
+              "goalsDiff": -13,
+              "form": "",
+              "team": {
+                "id": 298,
+                "name": "Girona FC"
+              },
+              "all": {
+                "goals": {
+                  "for": 31,
+                  "against": 44
+                }
+              }
+            },
+            {
+              "rank": 14,
+              "points": 32,
+              "goalsDiff": -7,
+              "form": "",
+              "team": {
+                "id": 87,
+                "name": "Rayo Vallecano de Madrid"
+              },
+              "all": {
+                "goals": {
+                  "for": 28,
+                  "against": 35
+                }
+              }
+            },
+            {
+              "rank": 15,
+              "points": 31,
+              "goalsDiff": -12,
+              "form": "",
+              "team": {
+                "id": 559,
+                "name": "Sevilla FC"
+              },
+              "all": {
+                "goals": {
+                  "for": 37,
+                  "against": 49
+                }
+              }
+            },
+            {
+              "rank": 16,
+              "points": 31,
+              "goalsDiff": -11,
+              "form": "",
+              "team": {
+                "id": 263,
+                "name": "Deportivo Alav\u00e9s"
+              },
+              "all": {
+                "goals": {
+                  "for": 30,
+                  "against": 41
+                }
+              }
+            },
+            {
+              "rank": 17,
+              "points": 29,
+              "goalsDiff": -8,
+              "form": "",
+              "team": {
+                "id": 285,
+                "name": "Elche CF"
+              },
+              "all": {
+                "goals": {
+                  "for": 38,
+                  "against": 46
+                }
+              }
+            },
+            {
+              "rank": 18,
+              "points": 28,
+              "goalsDiff": -13,
+              "form": "",
+              "team": {
+                "id": 89,
+                "name": "RCD Mallorca"
+              },
+              "all": {
+                "goals": {
+                  "for": 34,
+                  "against": 47
+                }
+              }
+            },
+            {
+              "rank": 19,
+              "points": 26,
+              "goalsDiff": -14,
+              "form": "",
+              "team": {
+                "id": 88,
+                "name": "Levante UD"
+              },
+              "all": {
+                "goals": {
+                  "for": 34,
+                  "against": 48
+                }
+              }
+            },
+            {
+              "rank": 20,
+              "points": 21,
+              "goalsDiff": -28,
+              "form": "",
+              "team": {
+                "id": 1048,
+                "name": "Real Oviedo"
+              },
+              "all": {
+                "goals": {
+                  "for": 20,
+                  "against": 48
+                }
+              }
+            }
+          ]
+        ]
+      }
+    }
+  ]
 }

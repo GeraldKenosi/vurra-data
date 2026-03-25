@@ -1,16 +1,334 @@
 {
-  "get": "standings",
-  "parameters": {
-    "league": "135",
-    "season": "2025"
-  },
-  "errors": {
-    "plan": "Free plans do not have access to this season, try from 2022 to 2024."
-  },
-  "results": 0,
-  "paging": {
-    "current": 1,
-    "total": 1
-  },
-  "response": []
+  "response": [
+    {
+      "league": {
+        "name": "Serie A",
+        "country": "Italy",
+        "standings": [
+          [
+            {
+              "rank": 1,
+              "points": 69,
+              "goalsDiff": 42,
+              "form": "",
+              "team": {
+                "id": 108,
+                "name": "FC Internazionale Milano"
+              },
+              "all": {
+                "goals": {
+                  "for": 66,
+                  "against": 24
+                }
+              }
+            },
+            {
+              "rank": 2,
+              "points": 63,
+              "goalsDiff": 24,
+              "form": "",
+              "team": {
+                "id": 98,
+                "name": "AC Milan"
+              },
+              "all": {
+                "goals": {
+                  "for": 47,
+                  "against": 23
+                }
+              }
+            },
+            {
+              "rank": 3,
+              "points": 62,
+              "goalsDiff": 16,
+              "form": "",
+              "team": {
+                "id": 113,
+                "name": "SSC Napoli"
+              },
+              "all": {
+                "goals": {
+                  "for": 46,
+                  "against": 30
+                }
+              }
+            },
+            {
+              "rank": 4,
+              "points": 57,
+              "goalsDiff": 31,
+              "form": "",
+              "team": {
+                "id": 7397,
+                "name": "Como 1907"
+              },
+              "all": {
+                "goals": {
+                  "for": 53,
+                  "against": 22
+                }
+              }
+            },
+            {
+              "rank": 5,
+              "points": 54,
+              "goalsDiff": 23,
+              "form": "",
+              "team": {
+                "id": 109,
+                "name": "Juventus FC"
+              },
+              "all": {
+                "goals": {
+                  "for": 52,
+                  "against": 29
+                }
+              }
+            },
+            {
+              "rank": 6,
+              "points": 54,
+              "goalsDiff": 17,
+              "form": "",
+              "team": {
+                "id": 100,
+                "name": "AS Roma"
+              },
+              "all": {
+                "goals": {
+                  "for": 40,
+                  "against": 23
+                }
+              }
+            },
+            {
+              "rank": 7,
+              "points": 50,
+              "goalsDiff": 14,
+              "form": "",
+              "team": {
+                "id": 102,
+                "name": "Atalanta BC"
+              },
+              "all": {
+                "goals": {
+                  "for": 41,
+                  "against": 27
+                }
+              }
+            },
+            {
+              "rank": 8,
+              "points": 43,
+              "goalsDiff": 3,
+              "form": "",
+              "team": {
+                "id": 110,
+                "name": "SS Lazio"
+              },
+              "all": {
+                "goals": {
+                  "for": 31,
+                  "against": 28
+                }
+              }
+            },
+            {
+              "rank": 9,
+              "points": 42,
+              "goalsDiff": 2,
+              "form": "",
+              "team": {
+                "id": 103,
+                "name": "Bologna FC 1909"
+              },
+              "all": {
+                "goals": {
+                  "for": 38,
+                  "against": 36
+                }
+              }
+            },
+            {
+              "rank": 10,
+              "points": 39,
+              "goalsDiff": -4,
+              "form": "",
+              "team": {
+                "id": 471,
+                "name": "US Sassuolo Calcio"
+              },
+              "all": {
+                "goals": {
+                  "for": 36,
+                  "against": 40
+                }
+              }
+            },
+            {
+              "rank": 11,
+              "points": 39,
+              "goalsDiff": -7,
+              "form": "",
+              "team": {
+                "id": 115,
+                "name": "Udinese Calcio"
+              },
+              "all": {
+                "goals": {
+                  "for": 35,
+                  "against": 42
+                }
+              }
+            },
+            {
+              "rank": 12,
+              "points": 34,
+              "goalsDiff": -17,
+              "form": "",
+              "team": {
+                "id": 112,
+                "name": "Parma Calcio 1913"
+              },
+              "all": {
+                "goals": {
+                  "for": 21,
+                  "against": 38
+                }
+              }
+            },
+            {
+              "rank": 13,
+              "points": 33,
+              "goalsDiff": -6,
+              "form": "",
+              "team": {
+                "id": 107,
+                "name": "Genoa CFC"
+              },
+              "all": {
+                "goals": {
+                  "for": 36,
+                  "against": 42
+                }
+              }
+            },
+            {
+              "rank": 14,
+              "points": 33,
+              "goalsDiff": -19,
+              "form": "",
+              "team": {
+                "id": 586,
+                "name": "Torino FC"
+              },
+              "all": {
+                "goals": {
+                  "for": 34,
+                  "against": 53
+                }
+              }
+            },
+            {
+              "rank": 15,
+              "points": 30,
+              "goalsDiff": -11,
+              "form": "",
+              "team": {
+                "id": 104,
+                "name": "Cagliari Calcio"
+              },
+              "all": {
+                "goals": {
+                  "for": 31,
+                  "against": 42
+                }
+              }
+            },
+            {
+              "rank": 16,
+              "points": 29,
+              "goalsDiff": -9,
+              "form": "",
+              "team": {
+                "id": 99,
+                "name": "ACF Fiorentina"
+              },
+              "all": {
+                "goals": {
+                  "for": 35,
+                  "against": 44
+                }
+              }
+            },
+            {
+              "rank": 17,
+              "points": 27,
+              "goalsDiff": -19,
+              "form": "",
+              "team": {
+                "id": 457,
+                "name": "US Cremonese"
+              },
+              "all": {
+                "goals": {
+                  "for": 25,
+                  "against": 44
+                }
+              }
+            },
+            {
+              "rank": 18,
+              "points": 27,
+              "goalsDiff": -19,
+              "form": "",
+              "team": {
+                "id": 5890,
+                "name": "US Lecce"
+              },
+              "all": {
+                "goals": {
+                  "for": 21,
+                  "against": 40
+                }
+              }
+            },
+            {
+              "rank": 19,
+              "points": 18,
+              "goalsDiff": -30,
+              "form": "",
+              "team": {
+                "id": 450,
+                "name": "Hellas Verona FC"
+              },
+              "all": {
+                "goals": {
+                  "for": 22,
+                  "against": 52
+                }
+              }
+            },
+            {
+              "rank": 20,
+              "points": 18,
+              "goalsDiff": -31,
+              "form": "",
+              "team": {
+                "id": 487,
+                "name": "AC Pisa 1909"
+              },
+              "all": {
+                "goals": {
+                  "for": 23,
+                  "against": 54
+                }
+              }
+            }
+          ]
+        ]
+      }
+    }
+  ]
 }

@@ -1,19 +1,544 @@
 {
-  "get": "fixtures",
-  "parameters": {
-    "league": "140",
-    "season": "2025",
-    "from": "2026-03-25",
-    "to": "2026-04-08",
-    "status": "NS"
-  },
-  "errors": {
-    "plan": "Free plans do not have access to this season, try from 2022 to 2024."
-  },
-  "results": 0,
-  "paging": {
-    "current": 1,
-    "total": 1
-  },
-  "response": []
+  "response": [
+    {
+      "fixture": {
+        "id": 544509,
+        "date": "2026-04-03T19:00:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "La Liga",
+        "country": "Spain"
+      },
+      "teams": {
+        "home": {
+          "id": 87,
+          "name": "Rayo Vallecano de Madrid"
+        },
+        "away": {
+          "id": 285,
+          "name": "Elche CF"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 544510,
+        "date": "2026-04-04T12:00:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "La Liga",
+        "country": "Spain"
+      },
+      "teams": {
+        "home": {
+          "id": 92,
+          "name": "Real Sociedad de F\u00fatbol"
+        },
+        "away": {
+          "id": 88,
+          "name": "Levante UD"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 544505,
+        "date": "2026-04-04T14:15:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "La Liga",
+        "country": "Spain"
+      },
+      "teams": {
+        "home": {
+          "id": 89,
+          "name": "RCD Mallorca"
+        },
+        "away": {
+          "id": 86,
+          "name": "Real Madrid CF"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 544503,
+        "date": "2026-04-04T16:30:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "La Liga",
+        "country": "Spain"
+      },
+      "teams": {
+        "home": {
+          "id": 90,
+          "name": "Real Betis Balompi\u00e9"
+        },
+        "away": {
+          "id": 80,
+          "name": "RCD Espanyol de Barcelona"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 544502,
+        "date": "2026-04-04T19:00:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "La Liga",
+        "country": "Spain"
+      },
+      "teams": {
+        "home": {
+          "id": 78,
+          "name": "Club Atl\u00e9tico de Madrid"
+        },
+        "away": {
+          "id": 81,
+          "name": "FC Barcelona"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 544507,
+        "date": "2026-04-05T12:00:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "La Liga",
+        "country": "Spain"
+      },
+      "teams": {
+        "home": {
+          "id": 82,
+          "name": "Getafe CF"
+        },
+        "away": {
+          "id": 77,
+          "name": "Athletic Club"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 544508,
+        "date": "2026-04-05T14:15:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "La Liga",
+        "country": "Spain"
+      },
+      "teams": {
+        "home": {
+          "id": 95,
+          "name": "Valencia CF"
+        },
+        "away": {
+          "id": 558,
+          "name": "RC Celta de Vigo"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 544506,
+        "date": "2026-04-05T16:30:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "La Liga",
+        "country": "Spain"
+      },
+      "teams": {
+        "home": {
+          "id": 1048,
+          "name": "Real Oviedo"
+        },
+        "away": {
+          "id": 559,
+          "name": "Sevilla FC"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 544501,
+        "date": "2026-04-05T19:00:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "La Liga",
+        "country": "Spain"
+      },
+      "teams": {
+        "home": {
+          "id": 263,
+          "name": "Deportivo Alav\u00e9s"
+        },
+        "away": {
+          "id": 79,
+          "name": "CA Osasuna"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 544504,
+        "date": "2026-04-06T19:00:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "La Liga",
+        "country": "Spain"
+      },
+      "teams": {
+        "home": {
+          "id": 298,
+          "name": "Girona FC"
+        },
+        "away": {
+          "id": 94,
+          "name": "Villarreal CF"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 544520,
+        "date": "2026-04-10T19:00:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "La Liga",
+        "country": "Spain"
+      },
+      "teams": {
+        "home": {
+          "id": 86,
+          "name": "Real Madrid CF"
+        },
+        "away": {
+          "id": 298,
+          "name": "Girona FC"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 544516,
+        "date": "2026-04-11T12:00:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "La Liga",
+        "country": "Spain"
+      },
+      "teams": {
+        "home": {
+          "id": 92,
+          "name": "Real Sociedad de F\u00fatbol"
+        },
+        "away": {
+          "id": 263,
+          "name": "Deportivo Alav\u00e9s"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 544514,
+        "date": "2026-04-11T14:15:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "La Liga",
+        "country": "Spain"
+      },
+      "teams": {
+        "home": {
+          "id": 285,
+          "name": "Elche CF"
+        },
+        "away": {
+          "id": 95,
+          "name": "Valencia CF"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 544512,
+        "date": "2026-04-11T16:30:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "La Liga",
+        "country": "Spain"
+      },
+      "teams": {
+        "home": {
+          "id": 81,
+          "name": "FC Barcelona"
+        },
+        "away": {
+          "id": 80,
+          "name": "RCD Espanyol de Barcelona"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 544517,
+        "date": "2026-04-11T19:00:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "La Liga",
+        "country": "Spain"
+      },
+      "teams": {
+        "home": {
+          "id": 559,
+          "name": "Sevilla FC"
+        },
+        "away": {
+          "id": 78,
+          "name": "Club Atl\u00e9tico de Madrid"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 544518,
+        "date": "2026-04-12T12:00:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "La Liga",
+        "country": "Spain"
+      },
+      "teams": {
+        "home": {
+          "id": 79,
+          "name": "CA Osasuna"
+        },
+        "away": {
+          "id": 90,
+          "name": "Real Betis Balompi\u00e9"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 544515,
+        "date": "2026-04-12T14:15:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "La Liga",
+        "country": "Spain"
+      },
+      "teams": {
+        "home": {
+          "id": 89,
+          "name": "RCD Mallorca"
+        },
+        "away": {
+          "id": 87,
+          "name": "Rayo Vallecano de Madrid"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 544513,
+        "date": "2026-04-12T16:30:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "La Liga",
+        "country": "Spain"
+      },
+      "teams": {
+        "home": {
+          "id": 558,
+          "name": "RC Celta de Vigo"
+        },
+        "away": {
+          "id": 1048,
+          "name": "Real Oviedo"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 544511,
+        "date": "2026-04-12T19:00:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "La Liga",
+        "country": "Spain"
+      },
+      "teams": {
+        "home": {
+          "id": 77,
+          "name": "Athletic Club"
+        },
+        "away": {
+          "id": 94,
+          "name": "Villarreal CF"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "fixture": {
+        "id": 544519,
+        "date": "2026-04-13T19:00:00Z",
+        "status": {
+          "short": "NS"
+        }
+      },
+      "league": {
+        "name": "La Liga",
+        "country": "Spain"
+      },
+      "teams": {
+        "home": {
+          "id": 88,
+          "name": "Levante UD"
+        },
+        "away": {
+          "id": 82,
+          "name": "Getafe CF"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    }
+  ]
 }

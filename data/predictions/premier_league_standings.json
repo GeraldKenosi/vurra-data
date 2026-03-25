@@ -1,16 +1,334 @@
 {
-  "get": "standings",
-  "parameters": {
-    "league": "39",
-    "season": "2025"
-  },
-  "errors": {
-    "plan": "Free plans do not have access to this season, try from 2022 to 2024."
-  },
-  "results": 0,
-  "paging": {
-    "current": 1,
-    "total": 1
-  },
-  "response": []
+  "response": [
+    {
+      "league": {
+        "name": "Premier League",
+        "country": "England",
+        "standings": [
+          [
+            {
+              "rank": 1,
+              "points": 70,
+              "goalsDiff": 39,
+              "form": "",
+              "team": {
+                "id": 57,
+                "name": "Arsenal FC"
+              },
+              "all": {
+                "goals": {
+                  "for": 61,
+                  "against": 22
+                }
+              }
+            },
+            {
+              "rank": 2,
+              "points": 61,
+              "goalsDiff": 32,
+              "form": "",
+              "team": {
+                "id": 65,
+                "name": "Manchester City FC"
+              },
+              "all": {
+                "goals": {
+                  "for": 60,
+                  "against": 28
+                }
+              }
+            },
+            {
+              "rank": 3,
+              "points": 55,
+              "goalsDiff": 13,
+              "form": "",
+              "team": {
+                "id": 66,
+                "name": "Manchester United FC"
+              },
+              "all": {
+                "goals": {
+                  "for": 56,
+                  "against": 43
+                }
+              }
+            },
+            {
+              "rank": 4,
+              "points": 54,
+              "goalsDiff": 5,
+              "form": "",
+              "team": {
+                "id": 58,
+                "name": "Aston Villa FC"
+              },
+              "all": {
+                "goals": {
+                  "for": 42,
+                  "against": 37
+                }
+              }
+            },
+            {
+              "rank": 5,
+              "points": 49,
+              "goalsDiff": 8,
+              "form": "",
+              "team": {
+                "id": 64,
+                "name": "Liverpool FC"
+              },
+              "all": {
+                "goals": {
+                  "for": 50,
+                  "against": 42
+                }
+              }
+            },
+            {
+              "rank": 6,
+              "points": 48,
+              "goalsDiff": 15,
+              "form": "",
+              "team": {
+                "id": 61,
+                "name": "Chelsea FC"
+              },
+              "all": {
+                "goals": {
+                  "for": 53,
+                  "against": 38
+                }
+              }
+            },
+            {
+              "rank": 7,
+              "points": 46,
+              "goalsDiff": 4,
+              "form": "",
+              "team": {
+                "id": 402,
+                "name": "Brentford FC"
+              },
+              "all": {
+                "goals": {
+                  "for": 46,
+                  "against": 42
+                }
+              }
+            },
+            {
+              "rank": 8,
+              "points": 46,
+              "goalsDiff": 2,
+              "form": "",
+              "team": {
+                "id": 62,
+                "name": "Everton FC"
+              },
+              "all": {
+                "goals": {
+                  "for": 37,
+                  "against": 35
+                }
+              }
+            },
+            {
+              "rank": 9,
+              "points": 44,
+              "goalsDiff": -1,
+              "form": "",
+              "team": {
+                "id": 63,
+                "name": "Fulham FC"
+              },
+              "all": {
+                "goals": {
+                  "for": 43,
+                  "against": 44
+                }
+              }
+            },
+            {
+              "rank": 10,
+              "points": 43,
+              "goalsDiff": 4,
+              "form": "",
+              "team": {
+                "id": 397,
+                "name": "Brighton & Hove Albion FC"
+              },
+              "all": {
+                "goals": {
+                  "for": 41,
+                  "against": 37
+                }
+              }
+            },
+            {
+              "rank": 11,
+              "points": 43,
+              "goalsDiff": -4,
+              "form": "",
+              "team": {
+                "id": 71,
+                "name": "Sunderland AFC"
+              },
+              "all": {
+                "goals": {
+                  "for": 32,
+                  "against": 36
+                }
+              }
+            },
+            {
+              "rank": 12,
+              "points": 42,
+              "goalsDiff": -1,
+              "form": "",
+              "team": {
+                "id": 67,
+                "name": "Newcastle United FC"
+              },
+              "all": {
+                "goals": {
+                  "for": 44,
+                  "against": 45
+                }
+              }
+            },
+            {
+              "rank": 13,
+              "points": 42,
+              "goalsDiff": -2,
+              "form": "",
+              "team": {
+                "id": 1044,
+                "name": "AFC Bournemouth"
+              },
+              "all": {
+                "goals": {
+                  "for": 46,
+                  "against": 48
+                }
+              }
+            },
+            {
+              "rank": 14,
+              "points": 39,
+              "goalsDiff": -2,
+              "form": "",
+              "team": {
+                "id": 354,
+                "name": "Crystal Palace FC"
+              },
+              "all": {
+                "goals": {
+                  "for": 33,
+                  "against": 35
+                }
+              }
+            },
+            {
+              "rank": 15,
+              "points": 33,
+              "goalsDiff": -11,
+              "form": "",
+              "team": {
+                "id": 341,
+                "name": "Leeds United FC"
+              },
+              "all": {
+                "goals": {
+                  "for": 37,
+                  "against": 48
+                }
+              }
+            },
+            {
+              "rank": 16,
+              "points": 32,
+              "goalsDiff": -12,
+              "form": "",
+              "team": {
+                "id": 351,
+                "name": "Nottingham Forest FC"
+              },
+              "all": {
+                "goals": {
+                  "for": 31,
+                  "against": 43
+                }
+              }
+            },
+            {
+              "rank": 17,
+              "points": 30,
+              "goalsDiff": -10,
+              "form": "",
+              "team": {
+                "id": 73,
+                "name": "Tottenham Hotspur FC"
+              },
+              "all": {
+                "goals": {
+                  "for": 40,
+                  "against": 50
+                }
+              }
+            },
+            {
+              "rank": 18,
+              "points": 29,
+              "goalsDiff": -21,
+              "form": "",
+              "team": {
+                "id": 563,
+                "name": "West Ham United FC"
+              },
+              "all": {
+                "goals": {
+                  "for": 36,
+                  "against": 57
+                }
+              }
+            },
+            {
+              "rank": 19,
+              "points": 20,
+              "goalsDiff": -28,
+              "form": "",
+              "team": {
+                "id": 328,
+                "name": "Burnley FC"
+              },
+              "all": {
+                "goals": {
+                  "for": 33,
+                  "against": 61
+                }
+              }
+            },
+            {
+              "rank": 20,
+              "points": 17,
+              "goalsDiff": -30,
+              "form": "",
+              "team": {
+                "id": 76,
+                "name": "Wolverhampton Wanderers FC"
+              },
+              "all": {
+                "goals": {
+                  "for": 24,
+                  "against": 54
+                }
+              }
+            }
+          ]
+        ]
+      }
+    }
+  ]
 }

@@ -28,46 +28,29 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Fetch tracked leagues
-        env:
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+      - name: Build tracked leagues
         run: python scripts/fetch_data.py
-
-      - name: Show files after tracked leagues
-        run: |
-          echo "Listing data folder"
-          ls -R data || true
 
       - name: Fetch standings
         env:
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
         run: python scripts/fetch_standings.py
 
       - name: Fetch fixtures
         env:
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
         run: python scripts/build_json.py
 
       - name: Fetch recent form
         env:
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
         run: python scripts/fetch_recent_form.py
 
       - name: Build predictions
-        env:
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         run: python scripts/predict_matches.py
 
       - name: Build home summary
         run: python scripts/build_home_summary.py
-
-      - name: Show summary file
-        run: |
-          echo "Checking for home_summary.json"
-          ls -R data/predictions || true
-
-      - name: Show changed files
-        run: git status
 
       - name: Commit updated data
         run: |
