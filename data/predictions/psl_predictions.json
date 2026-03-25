@@ -9,8 +9,8 @@
       "away_team": "Kaizer Chiefs",
       "prediction": "Away Win",
       "confidence": 88,
-      "home_strength": 0.114,
-      "away_strength": 0.625,
+      "home_strength": 0.103,
+      "away_strength": 0.528,
       "home_rank": 15,
       "away_rank": 4,
       "home_points": 18,
@@ -18,7 +18,7 @@
       "home_recent_overall": 0.0,
       "away_recent_overall": 1.0,
       "home_recent_home": 0.0,
-      "away_recent_away": 1.0
+      "away_recent_away": 0.0
     },
     {
       "fixture_id": 900001,
@@ -28,16 +28,16 @@
       "home_team": "AmaZulu FC",
       "away_team": "Sekhukhune United",
       "prediction": "Home Win",
-      "confidence": 88,
-      "home_strength": 0.705,
-      "away_strength": 0.326,
+      "confidence": 85,
+      "home_strength": 0.602,
+      "away_strength": 0.267,
       "home_rank": 3,
       "away_rank": 6,
       "home_points": 37,
       "away_points": 34,
       "home_recent_overall": 1.0,
       "away_recent_overall": 0.0,
-      "home_recent_home": 1.0,
+      "home_recent_home": 0.0,
       "away_recent_away": 0.0
     },
     {
@@ -48,17 +48,17 @@
       "home_team": "Chippa United",
       "away_team": "Siwelele",
       "prediction": "Away Win",
-      "confidence": 69,
-      "home_strength": 0.272,
-      "away_strength": 0.444,
+      "confidence": 77,
+      "home_strength": 0.129,
+      "away_strength": 0.379,
       "home_rank": 13,
       "away_rank": 10,
       "home_points": 20,
       "away_points": 26,
-      "home_recent_overall": 0.5,
+      "home_recent_overall": 0.0,
       "away_recent_overall": 1.0,
-      "home_recent_home": 0.5,
-      "away_recent_away": 1.0
+      "home_recent_home": 0.0,
+      "away_recent_away": 0.0
     },
     {
       "fixture_id": 900003,
@@ -67,18 +67,18 @@
       "country": "South Africa",
       "home_team": "Durban City",
       "away_team": "Mamelodi Sundowns",
-      "prediction": "Away Win",
+      "prediction": "Home Win",
       "confidence": 65,
-      "home_strength": 0.655,
-      "away_strength": 0.782,
+      "home_strength": 0.691,
+      "away_strength": 0.562,
       "home_rank": 5,
       "away_rank": 2,
       "home_points": 35,
       "away_points": 50,
       "home_recent_overall": 1.0,
-      "away_recent_overall": 0.5,
+      "away_recent_overall": 0.0,
       "home_recent_home": 1.0,
-      "away_recent_away": 0.5
+      "away_recent_away": 0.0
     },
     {
       "fixture_id": 900004,
@@ -87,18 +87,18 @@
       "country": "South Africa",
       "home_team": "Magesi FC",
       "away_team": "Marumo Gallants",
-      "prediction": "Away Win",
-      "confidence": 67,
+      "prediction": "Draw",
+      "confidence": 53,
       "home_strength": 0.05,
-      "away_strength": 0.195,
+      "away_strength": 0.058,
       "home_rank": 16,
       "away_rank": 14,
       "home_points": 14,
       "away_points": 18,
       "home_recent_overall": 0.0,
-      "away_recent_overall": 0.5,
+      "away_recent_overall": 0.0,
       "home_recent_home": 0.0,
-      "away_recent_away": 0.5
+      "away_recent_away": 0.0
     },
     {
       "fixture_id": 900005,
@@ -109,16 +109,16 @@
       "away_team": "Golden Arrows",
       "prediction": "Home Win",
       "confidence": 88,
-      "home_strength": 1.0,
-      "away_strength": 0.502,
+      "home_strength": 0.87,
+      "away_strength": 0.427,
       "home_rank": 1,
       "away_rank": 8,
       "home_points": 51,
       "away_points": 28,
       "home_recent_overall": 1.0,
       "away_recent_overall": 1.0,
-      "home_recent_home": 1.0,
-      "away_recent_away": 1.0
+      "home_recent_home": 0.0,
+      "away_recent_away": 0.0
     }
   ]
 }
