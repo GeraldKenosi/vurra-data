@@ -15,7 +15,7 @@ FD_HEADERS = {
     "X-Auth-Token": os.getenv("FOOTBALL_DATA_API_KEY", "")
 }
 
-PSL_MATCH_CENTRE_URL = "https://www.psl.co.za/matchcentre"
+PSL_TOURNAMENT_URL = "https://www.psl.co.za/tournament/betway-premiership"
 
 
 def ensure_folders():
@@ -89,22 +89,21 @@ def normalize_fd_matches(raw, league_name, country):
 
 
 def fetch_psl_page():
-    response = requests.get(PSL_MATCH_CENTRE_URL, timeout=30)
+    response = requests.get(PSL_TOURNAMENT_URL, timeout=30)
     response.raise_for_status()
     return response.text
 
 
+def clean_name(value):
+    return " ".join(value.replace("\xa0", " ").split())
+
+
 def parse_psl_date(date_str):
-    year = 2026
-    return datetime.strptime(f"{date_str} {year}", "%d %b %Y")
-
-
-def normalize_team_name(name):
-    return " ".join(name.replace("\xa0", " ").split())
+    return datetime.strptime(date_str, "%d %b %Y")
 
 
 def scrape_psl_upcoming_fixtures(html):
-    soup = BeautifulSoup(html, "lxml")
+    soup = BeautifulSoup(html, "html.parser")
     text_lines = [
         line.strip() for line in soup.get_text("\n").splitlines()
         if line.strip()
@@ -112,13 +111,20 @@ def scrape_psl_upcoming_fixtures(html):
 
     fixtures = []
     current_date = None
-    i = 0
     fixture_id = 900000
+    cutoff = datetime.utcnow() + timedelta(days=30)
 
-    cutoff = datetime.utcnow() + timedelta(days=21)
+    try:
+        start_idx = text_lines.index("Match Centre")
+    except ValueError:
+        start_idx = 0
 
+    i = start_idx
     while i < len(text_lines):
         line = text_lines[i]
+
+        if line == "Latest News":
+            break
 
         if re.match(r"^\d{2}\s+[A-Za-z]{3}\s+\d{4}$", line):
             current_date = line
@@ -130,24 +136,19 @@ def scrape_psl_upcoming_fixtures(html):
             and i + 3 < len(text_lines)
             and text_lines[i + 1] == "VS"
         ):
-            home_team = normalize_team_name(text_lines[i])
-            away_team = normalize_team_name(text_lines[i + 2])
+            home_team = clean_name(text_lines[i])
+            away_team = clean_name(text_lines[i + 2])
             detail_line = text_lines[i + 3]
-
-            if re.match(r"^\d{2}\s+[A-Za-z]{3}\s+\d{2}:\d{2}", f"{current_date}"):
-                try:
-                    match_date = parse_psl_date(current_date)
-                    if match_date <= cutoff:
-                        time_match = re.match(r"^(\d{2}\s+[A-Za-z]{3}\s+\d{2}:\d{2})\s*-\s*(.*)$", f"{current_date.split()[0]} {current_date.split()[1]} {detail_line}")
-                except Exception:
-                    pass
 
             try:
                 dt = parse_psl_date(current_date)
                 if dt <= cutoff:
-                    date_part = dt.strftime("%Y-%m-%d")
-                    time_part = detail_line.split(" - ")[0].strip() if " - " in detail_line else "15:00"
-                    iso_date = f"{date_part}T{time_part}:00Z"
+                    time_match = re.match(r"^(\d{2}:\d{2})\s*-\s*(.*)$", detail_line)
+                    time_part = "15:00"
+                    if time_match:
+                        time_part = time_match.group(1)
+
+                    iso_date = f"{dt.strftime('%Y-%m-%d')}T{time_part}:00Z"
 
                     fixtures.append({
                         "fixture": {
@@ -195,7 +196,7 @@ def main():
 
     today = datetime.utcnow().date()
     date_from = today.isoformat()
-    date_to = (today + timedelta(days=21)).isoformat()
+    date_to = (today + timedelta(days=30)).isoformat()
 
     print(f"Fetching fixtures from {date_from} to {date_to}...\n")
 
@@ -220,7 +221,7 @@ def main():
             print(f"Saved: {output_file} | Count: {len(normalized.get('response', []))}")
 
         elif source == "psl_scraper":
-            print("Scraping PSL fixtures...")
+            print("Scraping PSL upcoming fixtures from tournament page...")
             html = fetch_psl_page()
             normalized = scrape_psl_upcoming_fixtures(html)
             save_json(normalized, output_file)

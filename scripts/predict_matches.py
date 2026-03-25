@@ -1,5 +1,6 @@
 import json
 import re
+from difflib import get_close_matches
 from pathlib import Path
 
 PROJECT_DIR = Path(__file__).resolve().parent.parent
@@ -25,13 +26,32 @@ def save_json(data, filepath):
 def normalize_team_key(name: str) -> str:
     if not name:
         return ""
+
     value = name.lower().strip()
     value = value.replace("&", "and")
+    value = value.replace("-", " ")
+    value = value.replace("_", " ")
     value = re.sub(r"\bfc\b", "", value)
     value = re.sub(r"\bfootball club\b", "", value)
+    value = re.sub(r"\bclub\b", "", value)
     value = re.sub(r"\s+", " ", value)
     value = re.sub(r"[^a-z0-9 ]", "", value)
     return value.strip()
+
+
+def resolve_team_stats(team_name, team_lookup):
+    normalized = normalize_team_key(team_name)
+
+    if normalized in team_lookup:
+        return team_lookup[normalized]
+
+    all_keys = list(team_lookup.keys())
+    close = get_close_matches(normalized, all_keys, n=1, cutoff=0.72)
+
+    if close:
+        return team_lookup[close[0]]
+
+    return None
 
 
 def weighted_recent_points(match_list, team_name, venue=None):
@@ -248,9 +268,9 @@ def process_league(league_key):
     output_file = PREDICTIONS_DIR / f"{league_key}_predictions.json"
 
     if not standings_file.exists() or not fixtures_file.exists():
-      save_json({"response": []}, output_file)
-      print(f"Skipped {league_key}: missing standings or fixtures.")
-      return
+        save_json({"response": []}, output_file)
+        print(f"Skipped {league_key}: missing standings or fixtures.")
+        return
 
     standings_data = load_json(standings_file)
     fixtures_data = load_json(fixtures_file)
@@ -273,10 +293,11 @@ def process_league(league_key):
         if not home_team or not away_team:
             continue
 
-        home_stats = team_lookup.get(normalize_team_key(home_team))
-        away_stats = team_lookup.get(normalize_team_key(away_team))
+        home_stats = resolve_team_stats(home_team, team_lookup)
+        away_stats = resolve_team_stats(away_team, team_lookup)
 
         if not home_stats or not away_stats:
+            print(f"Could not match teams for {league_key}: {home_team} vs {away_team}")
             continue
 
         prediction = build_prediction(

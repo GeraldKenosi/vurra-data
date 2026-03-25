@@ -85,12 +85,12 @@ def fetch_psl_page():
     return response.text
 
 
-def normalize_team_name(name):
-    return " ".join(name.replace("\xa0", " ").split())
+def clean_name(value):
+    return " ".join(value.replace("\xa0", " ").split())
 
 
 def scrape_psl_log(html):
-    soup = BeautifulSoup(html, "lxml")
+    soup = BeautifulSoup(html, "html.parser")
     text_lines = [
         line.strip() for line in soup.get_text("\n").splitlines()
         if line.strip()
@@ -101,44 +101,48 @@ def scrape_psl_log(html):
     except ValueError:
         return {"response": []}
 
-    lines = text_lines[start_idx + 1:]
-
     rows = []
-    i = 0
-    while i < len(lines):
-        line = lines[i]
+    i = start_idx + 1
+    synthetic_id = 5001
 
-        match = re.match(r"^(\d+)\s+(.+)$", line)
-        if match:
-            rank = int(match.group(1))
-            team_name = normalize_team_name(match.group(2))
+    while i < len(text_lines):
+        line = text_lines[i]
 
-            if i + 1 < len(lines):
-                stats_line = lines[i + 1]
-                stats_match = re.match(r"^(\d+)\s+(\d+)\s+(\d+)$", stats_line)
-                if stats_match:
-                    played = int(stats_match.group(1))
-                    wins = int(stats_match.group(2))
-                    points = int(stats_match.group(3))
+        if line.startswith("Videos") or line.startswith("Top Goal Scorers"):
+            break
 
-                    rows.append({
-                        "rank": rank,
-                        "points": points,
-                        "goalsDiff": 0,
-                        "form": "",
-                        "team": {
-                            "id": 1000 + rank,
-                            "name": team_name
-                        },
-                        "all": {
-                            "goals": {
-                                "for": wins,
-                                "against": max(0, played - wins)
-                            }
+        team_match = re.match(r"^(\d+)\s+(.+)$", line)
+        if team_match and i + 1 < len(text_lines):
+            rank = int(team_match.group(1))
+            team_name = clean_name(team_match.group(2))
+
+            stats_line = text_lines[i + 1]
+            stats_match = re.match(r"^(\d+)\s+(\d+)\s+(\d+)$", stats_line)
+
+            if stats_match:
+                played = int(stats_match.group(1))
+                wins = int(stats_match.group(2))
+                points = int(stats_match.group(3))
+
+                rows.append({
+                    "rank": rank,
+                    "points": points,
+                    "goalsDiff": max(0, wins - (played - wins)),
+                    "form": "",
+                    "team": {
+                        "id": synthetic_id,
+                        "name": team_name
+                    },
+                    "all": {
+                        "goals": {
+                            "for": wins,
+                            "against": max(0, played - wins)
                         }
-                    })
-                    i += 2
-                    continue
+                    }
+                })
+                synthetic_id += 1
+                i += 2
+                continue
 
         i += 1
 
@@ -182,7 +186,7 @@ def main():
             print(f"Saved: {output_file}")
 
         elif source == "psl_scraper":
-            print("Scraping PSL log...")
+            print("Scraping PSL log from tournament page...")
             html = fetch_psl_page()
             normalized = scrape_psl_log(html)
             save_json(normalized, output_file)
