@@ -1,3 +1,3 @@
 # Vurra Data
 
-This project fetches football data, calculates match predictions, and builds JSON files for the Vurra app.
+Backend data pipeline and published JSON feeds for the Vurra app.

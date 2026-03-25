@@ -1,0 +1,12 @@
+{
+  "latest_version": "1.0.1",
+  "minimum_supported_version": "1.0.0",
+  "force_update": false,
+  "apk_url": "https://geraldkenosi.github.io/vurra-data/downloads/vurra-latest.apk",
+  "release_notes": [
+    "Live multi-league predictions",
+    "Featured picks homepage",
+    "League switcher",
+    "Refresh and cache support"
+  ]
+}
