@@ -250,5 +250,47 @@
         }
       }
     ]
+  },
+  "6013": {
+    "team_name": "Mamelodi Sundowns",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Mamelodi Sundowns"
+          },
+          "away": {
+            "id": null,
+            "name": "Chippa United"
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 1
+        }
+      }
+    ]
+  },
+  "6014": {
+    "team_name": "Chippa United",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Mamelodi Sundowns"
+          },
+          "away": {
+            "id": null,
+            "name": "Chippa United"
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 1
+        }
+      }
+    ]
   }
 }
