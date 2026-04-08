@@ -250,5 +250,47 @@
         }
       }
     ]
+  },
+  "6013": {
+    "team_name": "TS Galaxy",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "TS Galaxy"
+          },
+          "away": {
+            "id": null,
+            "name": "Polokwane City"
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 2
+        }
+      }
+    ]
+  },
+  "6014": {
+    "team_name": "Polokwane City",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "TS Galaxy"
+          },
+          "away": {
+            "id": null,
+            "name": "Polokwane City"
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 2
+        }
+      }
+    ]
   }
 }
