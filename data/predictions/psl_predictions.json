@@ -29,16 +29,16 @@
       "away_team": "Sekhukhune United",
       "prediction": "Home Win",
       "confidence": 63,
-      "home_strength": 0.499,
-      "away_strength": 0.384,
+      "home_strength": 0.382,
+      "away_strength": 0.267,
       "home_rank": 3,
       "away_rank": 6,
       "home_points": 37,
       "away_points": 34,
-      "home_recent_overall": 0.333,
-      "away_recent_overall": 0.333,
-      "home_recent_home": 0.333,
-      "away_recent_away": 0.333
+      "home_recent_overall": 0.0,
+      "away_recent_overall": 0.0,
+      "home_recent_home": 0.0,
+      "away_recent_away": 0.0
     },
     {
       "fixture_id": 900002,
