@@ -8,9 +8,9 @@
       "home_team": "Orbit College FC",
       "away_team": "Kaizer Chiefs",
       "prediction": "Away Win",
-      "confidence": 87,
+      "confidence": 88,
       "home_strength": 0.176,
-      "away_strength": 0.528,
+      "away_strength": 0.658,
       "home_rank": 15,
       "away_rank": 4,
       "home_points": 18,
@@ -18,7 +18,7 @@
       "home_recent_overall": 0.333,
       "away_recent_overall": 1.0,
       "home_recent_home": 0.0,
-      "away_recent_away": 0.0
+      "away_recent_away": 1.0
     },
     {
       "fixture_id": 900001,

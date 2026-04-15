@@ -59,6 +59,22 @@
           "home": 2,
           "away": 0
         }
+      },
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Magesi FC"
+          },
+          "away": {
+            "id": null,
+            "name": "Kaizer Chiefs"
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 4
+        }
       }
     ]
   },
@@ -163,6 +179,22 @@
         "goals": {
           "home": 1,
           "away": 0
+        }
+      },
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Magesi FC"
+          },
+          "away": {
+            "id": null,
+            "name": "Kaizer Chiefs"
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 4
         }
       }
     ]
