@@ -1,5 +1,79 @@
 {
   "6001": {
+    "team_name": "Magesi FC",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Magesi FC"
+          },
+          "away": {
+            "id": null,
+            "name": "Kaizer Chiefs"
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 4
+        }
+      },
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Sekhukhune United"
+          },
+          "away": {
+            "id": null,
+            "name": "Magesi FC"
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 0
+        }
+      }
+    ]
+  },
+  "6002": {
+    "team_name": "Kaizer Chiefs",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Magesi FC"
+          },
+          "away": {
+            "id": null,
+            "name": "Kaizer Chiefs"
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 4
+        }
+      },
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Kaizer Chiefs"
+          },
+          "away": {
+            "id": null,
+            "name": "TS Galaxy"
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 0
+        }
+      }
+    ]
+  },
+  "6003": {
     "team_name": "Marumo Gallants",
     "matches": [
       {
@@ -20,7 +94,7 @@
       }
     ]
   },
-  "6002": {
+  "6004": {
     "team_name": "Orbit College FC",
     "matches": [
       {
@@ -41,44 +115,7 @@
       }
     ]
   },
-  "6003": {
-    "team_name": "Kaizer Chiefs",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Kaizer Chiefs"
-          },
-          "away": {
-            "id": null,
-            "name": "TS Galaxy"
-          }
-        },
-        "goals": {
-          "home": 2,
-          "away": 0
-        }
-      },
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Magesi FC"
-          },
-          "away": {
-            "id": null,
-            "name": "Kaizer Chiefs"
-          }
-        },
-        "goals": {
-          "home": 1,
-          "away": 4
-        }
-      }
-    ]
-  },
-  "6004": {
+  "6005": {
     "team_name": "TS Galaxy",
     "matches": [
       {
@@ -99,7 +136,7 @@
       }
     ]
   },
-  "6005": {
+  "6006": {
     "team_name": "Chippa United",
     "matches": [
       {
@@ -120,7 +157,7 @@
       }
     ]
   },
-  "6006": {
+  "6007": {
     "team_name": "Polokwane City",
     "matches": [
       {
@@ -141,7 +178,7 @@
       }
     ]
   },
-  "6007": {
+  "6008": {
     "team_name": "Sekhukhune United",
     "matches": [
       {
@@ -158,43 +195,6 @@
         "goals": {
           "home": 1,
           "away": 0
-        }
-      }
-    ]
-  },
-  "6008": {
-    "team_name": "Magesi FC",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Sekhukhune United"
-          },
-          "away": {
-            "id": null,
-            "name": "Magesi FC"
-          }
-        },
-        "goals": {
-          "home": 1,
-          "away": 0
-        }
-      },
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Magesi FC"
-          },
-          "away": {
-            "id": null,
-            "name": "Kaizer Chiefs"
-          }
-        },
-        "goals": {
-          "home": 1,
-          "away": 4
         }
       }
     ]
@@ -237,48 +237,6 @@
         "goals": {
           "home": 1,
           "away": 0
-        }
-      }
-    ]
-  },
-  "6011": {
-    "team_name": "Siwelele",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Siwelele"
-          },
-          "away": {
-            "id": null,
-            "name": "AmaZulu FC"
-          }
-        },
-        "goals": {
-          "home": 1,
-          "away": 1
-        }
-      }
-    ]
-  },
-  "6012": {
-    "team_name": "AmaZulu FC",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Siwelele"
-          },
-          "away": {
-            "id": null,
-            "name": "AmaZulu FC"
-          }
-        },
-        "goals": {
-          "home": 1,
-          "away": 1
         }
       }
     ]
