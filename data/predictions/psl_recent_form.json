@@ -196,6 +196,22 @@
           "home": 1,
           "away": 0
         }
+      },
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Stellenbosch FC"
+          },
+          "away": {
+            "id": null,
+            "name": "Sekhukhune United"
+          }
+        },
+        "goals": {
+          "home": 3,
+          "away": 1
+        }
       }
     ]
   },
@@ -237,6 +253,27 @@
         "goals": {
           "home": 1,
           "away": 0
+        }
+      }
+    ]
+  },
+  "6011": {
+    "team_name": "Stellenbosch FC",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Stellenbosch FC"
+          },
+          "away": {
+            "id": null,
+            "name": "Sekhukhune United"
+          }
+        },
+        "goals": {
+          "home": 3,
+          "away": 1
         }
       }
     ]
