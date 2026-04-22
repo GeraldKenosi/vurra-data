@@ -250,5 +250,47 @@
         }
       }
     ]
+  },
+  "6013": {
+    "team_name": "Mamelodi Sundowns",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Mamelodi Sundowns"
+          },
+          "away": {
+            "id": null,
+            "name": "Stellenbosch FC"
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 0
+        }
+      }
+    ]
+  },
+  "6014": {
+    "team_name": "Stellenbosch FC",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Mamelodi Sundowns"
+          },
+          "away": {
+            "id": null,
+            "name": "Stellenbosch FC"
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 0
+        }
+      }
+    ]
   }
 }
