@@ -1,5 +1,105 @@
 {
   "6001": {
+    "team_name": "Durban City",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Durban City"
+          },
+          "away": {
+            "id": null,
+            "name": "Orbit College FC"
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 1
+        }
+      },
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Magesi FC"
+          },
+          "away": {
+            "id": null,
+            "name": "Durban City"
+          }
+        },
+        "goals": {
+          "home": 5,
+          "away": 2
+        }
+      }
+    ]
+  },
+  "6002": {
+    "team_name": "Orbit College FC",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Durban City"
+          },
+          "away": {
+            "id": null,
+            "name": "Orbit College FC"
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 1
+        }
+      }
+    ]
+  },
+  "6003": {
+    "team_name": "Golden Arrows",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Golden Arrows"
+          },
+          "away": {
+            "id": null,
+            "name": "Siwelele"
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 0
+        }
+      }
+    ]
+  },
+  "6004": {
+    "team_name": "Siwelele",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Golden Arrows"
+          },
+          "away": {
+            "id": null,
+            "name": "Siwelele"
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 0
+        }
+      }
+    ]
+  },
+  "6005": {
     "team_name": "Mamelodi Sundowns",
     "matches": [
       {
@@ -20,7 +120,7 @@
       }
     ]
   },
-  "6002": {
+  "6006": {
     "team_name": "Stellenbosch FC",
     "matches": [
       {
@@ -41,7 +141,7 @@
       }
     ]
   },
-  "6003": {
+  "6007": {
     "team_name": "Magesi FC",
     "matches": [
       {
@@ -62,44 +162,7 @@
       }
     ]
   },
-  "6004": {
-    "team_name": "Durban City",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Magesi FC"
-          },
-          "away": {
-            "id": null,
-            "name": "Durban City"
-          }
-        },
-        "goals": {
-          "home": 5,
-          "away": 2
-        }
-      },
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Durban City"
-          },
-          "away": {
-            "id": null,
-            "name": "Orbit College FC"
-          }
-        },
-        "goals": {
-          "home": 0,
-          "away": 1
-        }
-      }
-    ]
-  },
-  "6005": {
+  "6008": {
     "team_name": "TS Galaxy",
     "matches": [
       {
@@ -120,7 +183,7 @@
       }
     ]
   },
-  "6006": {
+  "6009": {
     "team_name": "Richards Bay",
     "matches": [
       {
@@ -141,7 +204,7 @@
       }
     ]
   },
-  "6007": {
+  "6010": {
     "team_name": "Polokwane City",
     "matches": [
       {
@@ -162,7 +225,7 @@
       }
     ]
   },
-  "6008": {
+  "6011": {
     "team_name": "Kaizer Chiefs",
     "matches": [
       {
@@ -174,138 +237,6 @@
           "away": {
             "id": null,
             "name": "Kaizer Chiefs"
-          }
-        },
-        "goals": {
-          "home": 0,
-          "away": 0
-        }
-      }
-    ]
-  },
-  "6009": {
-    "team_name": "Marumo Gallants",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Marumo Gallants"
-          },
-          "away": {
-            "id": null,
-            "name": "Siwelele"
-          }
-        },
-        "goals": {
-          "home": 0,
-          "away": 0
-        }
-      }
-    ]
-  },
-  "6010": {
-    "team_name": "Siwelele",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Marumo Gallants"
-          },
-          "away": {
-            "id": null,
-            "name": "Siwelele"
-          }
-        },
-        "goals": {
-          "home": 0,
-          "away": 0
-        }
-      },
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Golden Arrows"
-          },
-          "away": {
-            "id": null,
-            "name": "Siwelele"
-          }
-        },
-        "goals": {
-          "home": 0,
-          "away": 0
-        }
-      }
-    ]
-  },
-  "6011": {
-    "team_name": "Orbit College FC",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Orbit College FC"
-          },
-          "away": {
-            "id": null,
-            "name": "Golden Arrows"
-          }
-        },
-        "goals": {
-          "home": 1,
-          "away": 2
-        }
-      },
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Durban City"
-          },
-          "away": {
-            "id": null,
-            "name": "Orbit College FC"
-          }
-        },
-        "goals": {
-          "home": 0,
-          "away": 1
-        }
-      }
-    ]
-  },
-  "6012": {
-    "team_name": "Golden Arrows",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Orbit College FC"
-          },
-          "away": {
-            "id": null,
-            "name": "Golden Arrows"
-          }
-        },
-        "goals": {
-          "home": 1,
-          "away": 2
-        }
-      },
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Golden Arrows"
-          },
-          "away": {
-            "id": null,
-            "name": "Siwelele"
           }
         },
         "goals": {
