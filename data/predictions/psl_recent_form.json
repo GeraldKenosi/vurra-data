@@ -1,44 +1,23 @@
 {
   "6001": {
-    "team_name": "Polokwane City",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Polokwane City"
-          },
-          "away": {
-            "id": null,
-            "name": "Mamelodi Sundowns"
-          }
-        },
-        "goals": {
-          "home": 0,
-          "away": 1
-        }
-      },
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Polokwane City"
-          },
-          "away": {
-            "id": null,
-            "name": "Stellenbosch FC"
-          }
-        },
-        "goals": {
-          "home": 1,
-          "away": 0
-        }
-      }
-    ]
-  },
-  "6002": {
     "team_name": "Mamelodi Sundowns",
     "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Mamelodi Sundowns"
+          },
+          "away": {
+            "id": null,
+            "name": "Polokwane City"
+          }
+        },
+        "goals": {
+          "home": 3,
+          "away": 0
+        }
+      },
       {
         "teams": {
           "home": {
@@ -68,6 +47,59 @@
         },
         "goals": {
           "home": 0,
+          "away": 0
+        }
+      }
+    ]
+  },
+  "6002": {
+    "team_name": "Polokwane City",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Mamelodi Sundowns"
+          },
+          "away": {
+            "id": null,
+            "name": "Polokwane City"
+          }
+        },
+        "goals": {
+          "home": 3,
+          "away": 0
+        }
+      },
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Polokwane City"
+          },
+          "away": {
+            "id": null,
+            "name": "Mamelodi Sundowns"
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 1
+        }
+      },
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Polokwane City"
+          },
+          "away": {
+            "id": null,
+            "name": "Stellenbosch FC"
+          }
+        },
+        "goals": {
+          "home": 1,
           "away": 0
         }
       }
@@ -189,48 +221,6 @@
         },
         "goals": {
           "home": 1,
-          "away": 0
-        }
-      }
-    ]
-  },
-  "6008": {
-    "team_name": "TS Galaxy",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "TS Galaxy"
-          },
-          "away": {
-            "id": null,
-            "name": "Magesi FC"
-          }
-        },
-        "goals": {
-          "home": 0,
-          "away": 0
-        }
-      }
-    ]
-  },
-  "6009": {
-    "team_name": "Magesi FC",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "TS Galaxy"
-          },
-          "away": {
-            "id": null,
-            "name": "Magesi FC"
-          }
-        },
-        "goals": {
-          "home": 0,
           "away": 0
         }
       }
