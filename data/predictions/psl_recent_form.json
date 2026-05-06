@@ -1,5 +1,147 @@
 {
   "6001": {
+    "team_name": "Magesi FC",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Magesi FC"
+          },
+          "away": {
+            "id": null,
+            "name": "Orbit College FC"
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 2
+        }
+      }
+    ]
+  },
+  "6002": {
+    "team_name": "Orbit College FC",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Magesi FC"
+          },
+          "away": {
+            "id": null,
+            "name": "Orbit College FC"
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 2
+        }
+      }
+    ]
+  },
+  "6003": {
+    "team_name": "Siwelele",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Siwelele"
+          },
+          "away": {
+            "id": null,
+            "name": "Durban City"
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 2
+        }
+      },
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Siwelele"
+          },
+          "away": {
+            "id": null,
+            "name": "Kaizer Chiefs"
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 0
+        }
+      }
+    ]
+  },
+  "6004": {
+    "team_name": "Durban City",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Siwelele"
+          },
+          "away": {
+            "id": null,
+            "name": "Durban City"
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 2
+        }
+      }
+    ]
+  },
+  "6005": {
+    "team_name": "Stellenbosch FC",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Stellenbosch FC"
+          },
+          "away": {
+            "id": null,
+            "name": "Orlando Pirates"
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 2
+        }
+      }
+    ]
+  },
+  "6006": {
+    "team_name": "Orlando Pirates",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Stellenbosch FC"
+          },
+          "away": {
+            "id": null,
+            "name": "Orlando Pirates"
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 2
+        }
+      }
+    ]
+  },
+  "6007": {
     "team_name": "Mamelodi Sundowns",
     "matches": [
       {
@@ -33,26 +175,10 @@
           "home": 0,
           "away": 1
         }
-      },
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Richards Bay"
-          },
-          "away": {
-            "id": null,
-            "name": "Mamelodi Sundowns"
-          }
-        },
-        "goals": {
-          "home": 0,
-          "away": 0
-        }
       }
     ]
   },
-  "6002": {
+  "6008": {
     "team_name": "Polokwane City",
     "matches": [
       {
@@ -86,47 +212,10 @@
           "home": 0,
           "away": 1
         }
-      },
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Polokwane City"
-          },
-          "away": {
-            "id": null,
-            "name": "Stellenbosch FC"
-          }
-        },
-        "goals": {
-          "home": 1,
-          "away": 0
-        }
       }
     ]
   },
-  "6003": {
-    "team_name": "Siwelele",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Siwelele"
-          },
-          "away": {
-            "id": null,
-            "name": "Kaizer Chiefs"
-          }
-        },
-        "goals": {
-          "home": 2,
-          "away": 0
-        }
-      }
-    ]
-  },
-  "6004": {
+  "6009": {
     "team_name": "Kaizer Chiefs",
     "matches": [
       {
@@ -142,85 +231,6 @@
         },
         "goals": {
           "home": 2,
-          "away": 0
-        }
-      },
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Orlando Pirates"
-          },
-          "away": {
-            "id": null,
-            "name": "Kaizer Chiefs"
-          }
-        },
-        "goals": {
-          "home": 1,
-          "away": 1
-        }
-      }
-    ]
-  },
-  "6005": {
-    "team_name": "Richards Bay",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Richards Bay"
-          },
-          "away": {
-            "id": null,
-            "name": "Mamelodi Sundowns"
-          }
-        },
-        "goals": {
-          "home": 0,
-          "away": 0
-        }
-      }
-    ]
-  },
-  "6006": {
-    "team_name": "Orlando Pirates",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Orlando Pirates"
-          },
-          "away": {
-            "id": null,
-            "name": "Kaizer Chiefs"
-          }
-        },
-        "goals": {
-          "home": 1,
-          "away": 1
-        }
-      }
-    ]
-  },
-  "6007": {
-    "team_name": "Stellenbosch FC",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Polokwane City"
-          },
-          "away": {
-            "id": null,
-            "name": "Stellenbosch FC"
-          }
-        },
-        "goals": {
-          "home": 1,
           "away": 0
         }
       }
