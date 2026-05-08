@@ -250,5 +250,47 @@
         }
       }
     ]
+  },
+  "6013": {
+    "team_name": "Durban City",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Durban City"
+          },
+          "away": {
+            "id": null,
+            "name": "Stellenbosch FC"
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 0
+        }
+      }
+    ]
+  },
+  "6014": {
+    "team_name": "Stellenbosch FC",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Durban City"
+          },
+          "away": {
+            "id": null,
+            "name": "Stellenbosch FC"
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 0
+        }
+      }
+    ]
   }
 }
