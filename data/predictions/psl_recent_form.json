@@ -1,5 +1,63 @@
 {
   "6001": {
+    "team_name": "TS Galaxy",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "TS Galaxy"
+          },
+          "away": {
+            "id": null,
+            "name": "Mamelodi Sundowns"
+          }
+        },
+        "goals": {
+          "home": 3,
+          "away": 2
+        }
+      }
+    ]
+  },
+  "6002": {
+    "team_name": "Mamelodi Sundowns",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "TS Galaxy"
+          },
+          "away": {
+            "id": null,
+            "name": "Mamelodi Sundowns"
+          }
+        },
+        "goals": {
+          "home": 3,
+          "away": 2
+        }
+      },
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Mamelodi Sundowns"
+          },
+          "away": {
+            "id": null,
+            "name": "Siwelele"
+          }
+        },
+        "goals": {
+          "home": 7,
+          "away": 4
+        }
+      }
+    ]
+  },
+  "6003": {
     "team_name": "Sekhukhune United",
     "matches": [
       {
@@ -20,7 +78,7 @@
       }
     ]
   },
-  "6002": {
+  "6004": {
     "team_name": "Kaizer Chiefs",
     "matches": [
       {
@@ -41,7 +99,7 @@
       }
     ]
   },
-  "6003": {
+  "6005": {
     "team_name": "Magesi FC",
     "matches": [
       {
@@ -62,7 +120,7 @@
       }
     ]
   },
-  "6004": {
+  "6006": {
     "team_name": "Orlando Pirates",
     "matches": [
       {
@@ -83,28 +141,7 @@
       }
     ]
   },
-  "6005": {
-    "team_name": "Mamelodi Sundowns",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Mamelodi Sundowns"
-          },
-          "away": {
-            "id": null,
-            "name": "Siwelele"
-          }
-        },
-        "goals": {
-          "home": 7,
-          "away": 4
-        }
-      }
-    ]
-  },
-  "6006": {
+  "6007": {
     "team_name": "Siwelele",
     "matches": [
       {
@@ -125,7 +162,7 @@
       }
     ]
   },
-  "6007": {
+  "6008": {
     "team_name": "Golden Arrows",
     "matches": [
       {
@@ -146,7 +183,7 @@
       }
     ]
   },
-  "6008": {
+  "6009": {
     "team_name": "Polokwane City",
     "matches": [
       {
@@ -167,7 +204,7 @@
       }
     ]
   },
-  "6009": {
+  "6010": {
     "team_name": "Marumo Gallants",
     "matches": [
       {
@@ -188,7 +225,7 @@
       }
     ]
   },
-  "6010": {
+  "6011": {
     "team_name": "Richards Bay",
     "matches": [
       {
@@ -205,48 +242,6 @@
         "goals": {
           "home": 1,
           "away": 1
-        }
-      }
-    ]
-  },
-  "6011": {
-    "team_name": "Orbit College FC",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Orbit College FC"
-          },
-          "away": {
-            "id": null,
-            "name": "AmaZulu FC"
-          }
-        },
-        "goals": {
-          "home": 0,
-          "away": 0
-        }
-      }
-    ]
-  },
-  "6012": {
-    "team_name": "AmaZulu FC",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Orbit College FC"
-          },
-          "away": {
-            "id": null,
-            "name": "AmaZulu FC"
-          }
-        },
-        "goals": {
-          "home": 0,
-          "away": 0
         }
       }
     ]
