@@ -1,74 +1,58 @@
 {
   "6001": {
-    "team_name": "TS Galaxy",
+    "team_name": "AmaZulu FC",
     "matches": [
       {
         "teams": {
           "home": {
             "id": null,
-            "name": "TS Galaxy"
+            "name": "AmaZulu FC"
           },
           "away": {
             "id": null,
-            "name": "Mamelodi Sundowns"
+            "name": "Kaizer Chiefs"
           }
         },
         "goals": {
-          "home": 3,
-          "away": 2
+          "home": 0,
+          "away": 1
         }
       }
     ]
   },
   "6002": {
-    "team_name": "Mamelodi Sundowns",
+    "team_name": "Kaizer Chiefs",
     "matches": [
       {
         "teams": {
           "home": {
             "id": null,
-            "name": "TS Galaxy"
+            "name": "AmaZulu FC"
           },
           "away": {
             "id": null,
-            "name": "Mamelodi Sundowns"
+            "name": "Kaizer Chiefs"
           }
         },
         "goals": {
-          "home": 3,
-          "away": 2
-        }
-      },
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Mamelodi Sundowns"
-          },
-          "away": {
-            "id": null,
-            "name": "Siwelele"
-          }
-        },
-        "goals": {
-          "home": 7,
-          "away": 4
+          "home": 0,
+          "away": 1
         }
       }
     ]
   },
   "6003": {
-    "team_name": "Sekhukhune United",
+    "team_name": "Chippa United",
     "matches": [
       {
         "teams": {
           "home": {
             "id": null,
-            "name": "Sekhukhune United"
+            "name": "Chippa United"
           },
           "away": {
             "id": null,
-            "name": "Kaizer Chiefs"
+            "name": "Golden Arrows"
           }
         },
         "goals": {
@@ -79,17 +63,17 @@
     ]
   },
   "6004": {
-    "team_name": "Kaizer Chiefs",
+    "team_name": "Golden Arrows",
     "matches": [
       {
         "teams": {
           "home": {
             "id": null,
-            "name": "Sekhukhune United"
+            "name": "Chippa United"
           },
           "away": {
             "id": null,
-            "name": "Kaizer Chiefs"
+            "name": "Golden Arrows"
           }
         },
         "goals": {
@@ -100,80 +84,17 @@
     ]
   },
   "6005": {
-    "team_name": "Magesi FC",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Magesi FC"
-          },
-          "away": {
-            "id": null,
-            "name": "Orlando Pirates"
-          }
-        },
-        "goals": {
-          "home": 0,
-          "away": 3
-        }
-      }
-    ]
-  },
-  "6006": {
     "team_name": "Orlando Pirates",
     "matches": [
       {
         "teams": {
           "home": {
             "id": null,
-            "name": "Magesi FC"
-          },
-          "away": {
-            "id": null,
             "name": "Orlando Pirates"
-          }
-        },
-        "goals": {
-          "home": 0,
-          "away": 3
-        }
-      }
-    ]
-  },
-  "6007": {
-    "team_name": "Siwelele",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Mamelodi Sundowns"
           },
           "away": {
             "id": null,
-            "name": "Siwelele"
-          }
-        },
-        "goals": {
-          "home": 7,
-          "away": 4
-        }
-      }
-    ]
-  },
-  "6008": {
-    "team_name": "Golden Arrows",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Golden Arrows"
-          },
-          "away": {
-            "id": null,
-            "name": "Polokwane City"
+            "name": "Durban City"
           }
         },
         "goals": {
@@ -183,39 +104,102 @@
       }
     ]
   },
-  "6009": {
+  "6006": {
+    "team_name": "Durban City",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Orlando Pirates"
+          },
+          "away": {
+            "id": null,
+            "name": "Durban City"
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 0
+        }
+      }
+    ]
+  },
+  "6007": {
     "team_name": "Polokwane City",
     "matches": [
       {
         "teams": {
           "home": {
             "id": null,
-            "name": "Golden Arrows"
+            "name": "Polokwane City"
           },
           "away": {
             "id": null,
-            "name": "Polokwane City"
+            "name": "Marumo Gallants"
           }
         },
         "goals": {
-          "home": 0,
-          "away": 0
+          "home": 1,
+          "away": 1
         }
       }
     ]
   },
-  "6010": {
+  "6008": {
     "team_name": "Marumo Gallants",
     "matches": [
       {
         "teams": {
           "home": {
             "id": null,
-            "name": "Marumo Gallants"
+            "name": "Polokwane City"
           },
           "away": {
             "id": null,
+            "name": "Marumo Gallants"
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 1
+        }
+      }
+    ]
+  },
+  "6009": {
+    "team_name": "Richards Bay",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
             "name": "Richards Bay"
+          },
+          "away": {
+            "id": null,
+            "name": "Sekhukhune United"
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 1
+        }
+      }
+    ]
+  },
+  "6010": {
+    "team_name": "Sekhukhune United",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Richards Bay"
+          },
+          "away": {
+            "id": null,
+            "name": "Sekhukhune United"
           }
         },
         "goals": {
@@ -226,22 +210,43 @@
     ]
   },
   "6011": {
-    "team_name": "Richards Bay",
+    "team_name": "Siwelele",
     "matches": [
       {
         "teams": {
           "home": {
             "id": null,
-            "name": "Marumo Gallants"
+            "name": "Siwelele"
           },
           "away": {
             "id": null,
-            "name": "Richards Bay"
+            "name": "Magesi FC"
           }
         },
         "goals": {
           "home": 1,
-          "away": 1
+          "away": 0
+        }
+      }
+    ]
+  },
+  "6012": {
+    "team_name": "Magesi FC",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Siwelele"
+          },
+          "away": {
+            "id": null,
+            "name": "Magesi FC"
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 0
         }
       }
     ]
