@@ -1,1 +1,212 @@
-{}
+{
+  "6001": {
+    "team_name": "Sekhukhune United",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Sekhukhune United"
+          },
+          "away": {
+            "id": null,
+            "name": "Durban City"
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 0
+        }
+      }
+    ]
+  },
+  "6002": {
+    "team_name": "Durban City",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Sekhukhune United"
+          },
+          "away": {
+            "id": null,
+            "name": "Durban City"
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 0
+        }
+      }
+    ]
+  },
+  "6003": {
+    "team_name": "Golden Arrows",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Golden Arrows"
+          },
+          "away": {
+            "id": null,
+            "name": "Chippa United"
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 0
+        }
+      }
+    ]
+  },
+  "6004": {
+    "team_name": "Chippa United",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Golden Arrows"
+          },
+          "away": {
+            "id": null,
+            "name": "Chippa United"
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 0
+        }
+      }
+    ]
+  },
+  "6005": {
+    "team_name": "Orlando Pirates",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Orlando Pirates"
+          },
+          "away": {
+            "id": null,
+            "name": "Milford FC"
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 0
+        }
+      }
+    ]
+  },
+  "6006": {
+    "team_name": "Milford FC",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Orlando Pirates"
+          },
+          "away": {
+            "id": null,
+            "name": "Milford FC"
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 0
+        }
+      }
+    ]
+  },
+  "6007": {
+    "team_name": "Stellenbosch FC",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Stellenbosch FC"
+          },
+          "away": {
+            "id": null,
+            "name": "AmaZulu FC"
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 1
+        }
+      }
+    ]
+  },
+  "6008": {
+    "team_name": "AmaZulu FC",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Stellenbosch FC"
+          },
+          "away": {
+            "id": null,
+            "name": "AmaZulu FC"
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 1
+        }
+      }
+    ]
+  },
+  "6009": {
+    "team_name": "Kruger United",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Kruger United"
+          },
+          "away": {
+            "id": null,
+            "name": "Kaizer Chiefs"
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 1
+        }
+      }
+    ]
+  },
+  "6010": {
+    "team_name": "Kaizer Chiefs",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Kruger United"
+          },
+          "away": {
+            "id": null,
+            "name": "Kaizer Chiefs"
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 1
+        }
+      }
+    ]
+  }
+}
