@@ -38,70 +38,6 @@
           "home": 3,
           "away": 1
         }
-      },
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Amazulu FC v Siwelele"
-          },
-          "away": {
-            "id": null,
-            "name": "Saturday, 15 August"
-          }
-        },
-        "goals": {
-          "home": 2,
-          "away": 0
-        }
-      },
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Kaizer Chiefs v Mamelodi Sundowns"
-          },
-          "away": {
-            "id": null,
-            "name": "Saturday, 15 August"
-          }
-        },
-        "goals": {
-          "home": 1,
-          "away": 1
-        }
-      },
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Sekhukhune United v Polokwane City"
-          },
-          "away": {
-            "id": null,
-            "name": "Saturday, 15 August"
-          }
-        },
-        "goals": {
-          "home": 2,
-          "away": 0
-        }
-      },
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Durban City v Richards Bay"
-          },
-          "away": {
-            "id": null,
-            "name": "Saturday, 15 August"
-          }
-        },
-        "goals": {
-          "home": 1,
-          "away": 1
-        }
       }
     ]
   },
@@ -116,7 +52,7 @@
           },
           "away": {
             "id": null,
-            "name": "Saturday, 15 August"
+            "name": "Kaizer Chiefs v Mamelodi Sundowns"
           }
         },
         "goals": {
@@ -133,11 +69,27 @@
         "teams": {
           "home": {
             "id": null,
+            "name": "Amazulu FC v Siwelele"
+          },
+          "away": {
+            "id": null,
+            "name": "Kaizer Chiefs v Mamelodi Sundowns"
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 0
+        }
+      },
+      {
+        "teams": {
+          "home": {
+            "id": null,
             "name": "Kaizer Chiefs v Mamelodi Sundowns"
           },
           "away": {
             "id": null,
-            "name": "Saturday, 15 August"
+            "name": "Sekhukhune United v Polokwane City"
           }
         },
         "goals": {
@@ -154,11 +106,27 @@
         "teams": {
           "home": {
             "id": null,
+            "name": "Kaizer Chiefs v Mamelodi Sundowns"
+          },
+          "away": {
+            "id": null,
+            "name": "Sekhukhune United v Polokwane City"
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 1
+        }
+      },
+      {
+        "teams": {
+          "home": {
+            "id": null,
             "name": "Sekhukhune United v Polokwane City"
           },
           "away": {
             "id": null,
-            "name": "Saturday, 15 August"
+            "name": "Durban City v Richards Bay"
           }
         },
         "goals": {
@@ -175,11 +143,27 @@
         "teams": {
           "home": {
             "id": null,
+            "name": "Sekhukhune United v Polokwane City"
+          },
+          "away": {
+            "id": null,
+            "name": "Durban City v Richards Bay"
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 0
+        }
+      },
+      {
+        "teams": {
+          "home": {
+            "id": null,
             "name": "Durban City v Richards Bay"
           },
           "away": {
             "id": null,
-            "name": "Saturday, 15 August"
+            "name": "Milford FC v Kruger United"
           }
         },
         "goals": {
@@ -192,6 +176,22 @@
   "6007": {
     "team_name": "Milford FC v Kruger United",
     "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Durban City v Richards Bay"
+          },
+          "away": {
+            "id": null,
+            "name": "Milford FC v Kruger United"
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 1
+        }
+      },
       {
         "teams": {
           "home": {
@@ -228,22 +228,6 @@
           "home": 2,
           "away": 1
         }
-      },
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Chippa United v Orlando Pirates"
-          },
-          "away": {
-            "id": null,
-            "name": "Sunday, 16 August"
-          }
-        },
-        "goals": {
-          "home": 0,
-          "away": 3
-        }
       }
     ]
   },
@@ -258,7 +242,7 @@
           },
           "away": {
             "id": null,
-            "name": "Sunday, 16 August"
+            "name": "TS Galaxy v Golden Arrows"
           }
         },
         "goals": {
@@ -271,6 +255,22 @@
   "6010": {
     "team_name": "TS Galaxy v Golden Arrows",
     "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Chippa United v Orlando Pirates"
+          },
+          "away": {
+            "id": null,
+            "name": "TS Galaxy v Golden Arrows"
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 3
+        }
+      },
       {
         "teams": {
           "home": {
