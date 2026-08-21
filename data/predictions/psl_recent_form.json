@@ -1,47 +1,5 @@
 {
   "6001": {
-    "team_name": "Mamelodi Sundowns",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Mamelodi Sundowns"
-          },
-          "away": {
-            "id": null,
-            "name": "Marumo Gallants"
-          }
-        },
-        "goals": {
-          "home": 2,
-          "away": 0
-        }
-      }
-    ]
-  },
-  "6002": {
-    "team_name": "Marumo Gallants",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Mamelodi Sundowns"
-          },
-          "away": {
-            "id": null,
-            "name": "Marumo Gallants"
-          }
-        },
-        "goals": {
-          "home": 2,
-          "away": 0
-        }
-      }
-    ]
-  },
-  "6003": {
     "team_name": "TS Galaxy",
     "matches": [
       {
@@ -62,7 +20,7 @@
       }
     ]
   },
-  "6004": {
+  "6002": {
     "team_name": "Golden Arrows",
     "matches": [
       {
@@ -83,7 +41,7 @@
       }
     ]
   },
-  "6005": {
+  "6003": {
     "team_name": "Chippa United",
     "matches": [
       {
@@ -104,7 +62,7 @@
       }
     ]
   },
-  "6006": {
+  "6004": {
     "team_name": "Orlando Pirates",
     "matches": [
       {
@@ -125,7 +83,7 @@
       }
     ]
   },
-  "6007": {
+  "6005": {
     "team_name": "Durban City",
     "matches": [
       {
@@ -146,7 +104,7 @@
       }
     ]
   },
-  "6008": {
+  "6006": {
     "team_name": "Richards Bay",
     "matches": [
       {
@@ -167,7 +125,7 @@
       }
     ]
   },
-  "6009": {
+  "6007": {
     "team_name": "Milford FC",
     "matches": [
       {
@@ -188,7 +146,7 @@
       }
     ]
   },
-  "6010": {
+  "6008": {
     "team_name": "Kruger United",
     "matches": [
       {
@@ -209,7 +167,7 @@
       }
     ]
   },
-  "6011": {
+  "6009": {
     "team_name": "Sekhukhune United",
     "matches": [
       {
@@ -230,7 +188,7 @@
       }
     ]
   },
-  "6012": {
+  "6010": {
     "team_name": "Polokwane City",
     "matches": [
       {
@@ -242,6 +200,48 @@
           "away": {
             "id": null,
             "name": "Polokwane City"
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 0
+        }
+      }
+    ]
+  },
+  "6011": {
+    "team_name": "AmaZulu FC",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "AmaZulu FC"
+          },
+          "away": {
+            "id": null,
+            "name": "Siwelele"
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 0
+        }
+      }
+    ]
+  },
+  "6012": {
+    "team_name": "Siwelele",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "AmaZulu FC"
+          },
+          "away": {
+            "id": null,
+            "name": "Siwelele"
           }
         },
         "goals": {
