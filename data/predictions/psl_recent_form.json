@@ -1,5 +1,47 @@
 {
   "6001": {
+    "team_name": "Chippa United",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Chippa United"
+          },
+          "away": {
+            "id": null,
+            "name": "Milford FC"
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 0
+        }
+      }
+    ]
+  },
+  "6002": {
+    "team_name": "Milford FC",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Chippa United"
+          },
+          "away": {
+            "id": null,
+            "name": "Milford FC"
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 0
+        }
+      }
+    ]
+  },
+  "6003": {
     "team_name": "Golden Arrows",
     "matches": [
       {
@@ -36,7 +78,7 @@
       }
     ]
   },
-  "6002": {
+  "6004": {
     "team_name": "Stellenbosch FC",
     "matches": [
       {
@@ -57,7 +99,7 @@
       }
     ]
   },
-  "6003": {
+  "6005": {
     "team_name": "Richards Bay",
     "matches": [
       {
@@ -78,7 +120,7 @@
       }
     ]
   },
-  "6004": {
+  "6006": {
     "team_name": "Kaizer Chiefs",
     "matches": [
       {
@@ -99,7 +141,7 @@
       }
     ]
   },
-  "6005": {
+  "6007": {
     "team_name": "Kruger United",
     "matches": [
       {
@@ -120,7 +162,7 @@
       }
     ]
   },
-  "6006": {
+  "6008": {
     "team_name": "Durban City",
     "matches": [
       {
@@ -141,7 +183,7 @@
       }
     ]
   },
-  "6007": {
+  "6009": {
     "team_name": "Mamelodi Sundowns",
     "matches": [
       {
@@ -162,7 +204,7 @@
       }
     ]
   },
-  "6008": {
+  "6010": {
     "team_name": "Marumo Gallants",
     "matches": [
       {
@@ -183,7 +225,7 @@
       }
     ]
   },
-  "6009": {
+  "6011": {
     "team_name": "TS Galaxy",
     "matches": [
       {
@@ -200,48 +242,6 @@
         "goals": {
           "home": 0,
           "away": 0
-        }
-      }
-    ]
-  },
-  "6010": {
-    "team_name": "Chippa United",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Chippa United"
-          },
-          "away": {
-            "id": null,
-            "name": "Orlando Pirates"
-          }
-        },
-        "goals": {
-          "home": 0,
-          "away": 3
-        }
-      }
-    ]
-  },
-  "6011": {
-    "team_name": "Orlando Pirates",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Chippa United"
-          },
-          "away": {
-            "id": null,
-            "name": "Orlando Pirates"
-          }
-        },
-        "goals": {
-          "home": 0,
-          "away": 3
         }
       }
     ]
