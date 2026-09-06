@@ -108,17 +108,17 @@
       "home_team": "Orlando Pirates",
       "away_team": "Golden Arrows",
       "prediction": "Home Win",
-      "confidence": 75,
+      "confidence": 74,
       "home_strength": 0.65,
-      "away_strength": 0.421,
+      "away_strength": 0.427,
       "home_rank": 1,
       "away_rank": 8,
       "home_points": 51,
       "away_points": 28,
       "home_recent_overall": 0.0,
-      "away_recent_overall": 0.778,
+      "away_recent_overall": 1.0,
       "home_recent_home": 0.0,
-      "away_recent_away": 0.333
+      "away_recent_away": 0.0
     }
   ]
 }
