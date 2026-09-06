@@ -68,9 +68,9 @@
       "home_team": "Durban City",
       "away_team": "Mamelodi Sundowns",
       "prediction": "Away Win",
-      "confidence": 74,
+      "confidence": 87,
       "home_strength": 0.561,
-      "away_strength": 0.782,
+      "away_strength": 0.912,
       "home_rank": 5,
       "away_rank": 2,
       "home_points": 35,
@@ -78,7 +78,7 @@
       "home_recent_overall": 1.0,
       "away_recent_overall": 1.0,
       "home_recent_home": 0.0,
-      "away_recent_away": 0.0
+      "away_recent_away": 1.0
     },
     {
       "fixture_id": 900004,
@@ -108,15 +108,15 @@
       "home_team": "Orlando Pirates",
       "away_team": "Golden Arrows",
       "prediction": "Home Win",
-      "confidence": 74,
+      "confidence": 88,
       "home_strength": 0.65,
-      "away_strength": 0.427,
+      "away_strength": 0.28,
       "home_rank": 1,
       "away_rank": 8,
       "home_points": 51,
       "away_points": 28,
       "home_recent_overall": 0.0,
-      "away_recent_overall": 1.0,
+      "away_recent_overall": 0.333,
       "home_recent_home": 0.0,
       "away_recent_away": 0.0
     }
