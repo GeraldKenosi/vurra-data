@@ -1,5 +1,63 @@
 {
   "6001": {
+    "team_name": "Mamelodi Sundowns",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Mamelodi Sundowns"
+          },
+          "away": {
+            "id": null,
+            "name": "Siwelele"
+          }
+        },
+        "goals": {
+          "home": 3,
+          "away": 0
+        }
+      },
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Golden Arrows"
+          },
+          "away": {
+            "id": null,
+            "name": "Mamelodi Sundowns"
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 2
+        }
+      }
+    ]
+  },
+  "6002": {
+    "team_name": "Siwelele",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Mamelodi Sundowns"
+          },
+          "away": {
+            "id": null,
+            "name": "Siwelele"
+          }
+        },
+        "goals": {
+          "home": 3,
+          "away": 0
+        }
+      }
+    ]
+  },
+  "6003": {
     "team_name": "Golden Arrows",
     "matches": [
       {
@@ -36,44 +94,7 @@
       }
     ]
   },
-  "6002": {
-    "team_name": "Mamelodi Sundowns",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Golden Arrows"
-          },
-          "away": {
-            "id": null,
-            "name": "Mamelodi Sundowns"
-          }
-        },
-        "goals": {
-          "home": 1,
-          "away": 2
-        }
-      },
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Mamelodi Sundowns"
-          },
-          "away": {
-            "id": null,
-            "name": "Marumo Gallants"
-          }
-        },
-        "goals": {
-          "home": 2,
-          "away": 0
-        }
-      }
-    ]
-  },
-  "6003": {
+  "6004": {
     "team_name": "Stellenbosch FC",
     "matches": [
       {
@@ -94,7 +115,7 @@
       }
     ]
   },
-  "6004": {
+  "6005": {
     "team_name": "Richards Bay",
     "matches": [
       {
@@ -115,7 +136,7 @@
       }
     ]
   },
-  "6005": {
+  "6006": {
     "team_name": "Kaizer Chiefs",
     "matches": [
       {
@@ -136,7 +157,7 @@
       }
     ]
   },
-  "6006": {
+  "6007": {
     "team_name": "Kruger United",
     "matches": [
       {
@@ -157,7 +178,7 @@
       }
     ]
   },
-  "6007": {
+  "6008": {
     "team_name": "Durban City",
     "matches": [
       {
@@ -178,7 +199,7 @@
       }
     ]
   },
-  "6008": {
+  "6009": {
     "team_name": "Marumo Gallants",
     "matches": [
       {
@@ -196,26 +217,10 @@
           "home": 2,
           "away": 3
         }
-      },
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Mamelodi Sundowns"
-          },
-          "away": {
-            "id": null,
-            "name": "Marumo Gallants"
-          }
-        },
-        "goals": {
-          "home": 2,
-          "away": 0
-        }
       }
     ]
   },
-  "6009": {
+  "6010": {
     "team_name": "TS Galaxy",
     "matches": [
       {
