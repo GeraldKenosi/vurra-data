@@ -59,6 +59,22 @@
           "home": 1,
           "away": 1
         }
+      },
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Mamelodi Sundowns"
+          },
+          "away": {
+            "id": null,
+            "name": "Siwelele"
+          }
+        },
+        "goals": {
+          "home": 3,
+          "away": 0
+        }
       }
     ]
   },
@@ -121,6 +137,22 @@
         "goals": {
           "home": 1,
           "away": 1
+        }
+      },
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Mamelodi Sundowns"
+          },
+          "away": {
+            "id": null,
+            "name": "Siwelele"
+          }
+        },
+        "goals": {
+          "home": 3,
+          "away": 0
         }
       }
     ]
@@ -200,48 +232,6 @@
           "away": {
             "id": null,
             "name": "Kaizer Chiefs"
-          }
-        },
-        "goals": {
-          "home": 1,
-          "away": 1
-        }
-      }
-    ]
-  },
-  "6011": {
-    "team_name": "Stellenbosch FC",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Stellenbosch FC"
-          },
-          "away": {
-            "id": null,
-            "name": "Sekhukhune United"
-          }
-        },
-        "goals": {
-          "home": 1,
-          "away": 1
-        }
-      }
-    ]
-  },
-  "6012": {
-    "team_name": "Sekhukhune United",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Stellenbosch FC"
-          },
-          "away": {
-            "id": null,
-            "name": "Sekhukhune United"
           }
         },
         "goals": {
