@@ -1,5 +1,63 @@
 {
   "6001": {
+    "team_name": "Richards Bay",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Richards Bay"
+          },
+          "away": {
+            "id": null,
+            "name": "Sekhukhune United"
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 3
+        }
+      },
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Milford FC"
+          },
+          "away": {
+            "id": null,
+            "name": "Richards Bay"
+          }
+        },
+        "goals": {
+          "home": 5,
+          "away": 1
+        }
+      }
+    ]
+  },
+  "6002": {
+    "team_name": "Sekhukhune United",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Richards Bay"
+          },
+          "away": {
+            "id": null,
+            "name": "Sekhukhune United"
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 3
+        }
+      }
+    ]
+  },
+  "6003": {
     "team_name": "Milford FC",
     "matches": [
       {
@@ -36,44 +94,7 @@
       }
     ]
   },
-  "6002": {
-    "team_name": "Richards Bay",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Milford FC"
-          },
-          "away": {
-            "id": null,
-            "name": "Richards Bay"
-          }
-        },
-        "goals": {
-          "home": 5,
-          "away": 1
-        }
-      },
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Richards Bay"
-          },
-          "away": {
-            "id": null,
-            "name": "Kaizer Chiefs"
-          }
-        },
-        "goals": {
-          "home": 2,
-          "away": 2
-        }
-      }
-    ]
-  },
-  "6003": {
+  "6004": {
     "team_name": "Mamelodi Sundowns",
     "matches": [
       {
@@ -110,7 +131,7 @@
       }
     ]
   },
-  "6004": {
+  "6005": {
     "team_name": "Siwelele",
     "matches": [
       {
@@ -131,7 +152,7 @@
       }
     ]
   },
-  "6005": {
+  "6006": {
     "team_name": "Golden Arrows",
     "matches": [
       {
@@ -168,7 +189,7 @@
       }
     ]
   },
-  "6006": {
+  "6007": {
     "team_name": "Chippa United",
     "matches": [
       {
@@ -189,7 +210,7 @@
       }
     ]
   },
-  "6007": {
+  "6008": {
     "team_name": "Stellenbosch FC",
     "matches": [
       {
@@ -206,27 +227,6 @@
         "goals": {
           "home": 1,
           "away": 0
-        }
-      }
-    ]
-  },
-  "6008": {
-    "team_name": "Kaizer Chiefs",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Richards Bay"
-          },
-          "away": {
-            "id": null,
-            "name": "Kaizer Chiefs"
-          }
-        },
-        "goals": {
-          "home": 2,
-          "away": 2
         }
       }
     ]
