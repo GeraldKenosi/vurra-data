@@ -17,6 +17,22 @@
           "home": 0,
           "away": 0
         }
+      },
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Golden Arrows"
+          },
+          "away": {
+            "id": null,
+            "name": "Mamelodi Sundowns"
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 2
+        }
       }
     ]
   },
@@ -100,48 +116,6 @@
     ]
   },
   "6005": {
-    "team_name": "Polokwane City",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Polokwane City"
-          },
-          "away": {
-            "id": null,
-            "name": "AmaZulu FC"
-          }
-        },
-        "goals": {
-          "home": 0,
-          "away": 1
-        }
-      }
-    ]
-  },
-  "6006": {
-    "team_name": "AmaZulu FC",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Polokwane City"
-          },
-          "away": {
-            "id": null,
-            "name": "AmaZulu FC"
-          }
-        },
-        "goals": {
-          "home": 0,
-          "away": 1
-        }
-      }
-    ]
-  },
-  "6007": {
     "team_name": "Richards Bay",
     "matches": [
       {
@@ -178,7 +152,7 @@
       }
     ]
   },
-  "6008": {
+  "6006": {
     "team_name": "Sekhukhune United",
     "matches": [
       {
@@ -199,7 +173,7 @@
       }
     ]
   },
-  "6009": {
+  "6007": {
     "team_name": "Mamelodi Sundowns",
     "matches": [
       {
@@ -217,10 +191,26 @@
           "home": 3,
           "away": 0
         }
+      },
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Golden Arrows"
+          },
+          "away": {
+            "id": null,
+            "name": "Mamelodi Sundowns"
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 2
+        }
       }
     ]
   },
-  "6010": {
+  "6008": {
     "team_name": "Siwelele",
     "matches": [
       {
