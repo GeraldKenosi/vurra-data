@@ -91,6 +91,22 @@
           "home": 5,
           "away": 1
         }
+      },
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Chippa United"
+          },
+          "away": {
+            "id": null,
+            "name": "Milford FC"
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 0
+        }
       }
     ]
   },
@@ -122,22 +138,6 @@
         "teams": {
           "home": {
             "id": null,
-            "name": "Richards Bay"
-          },
-          "away": {
-            "id": null,
-            "name": "Sekhukhune United"
-          }
-        },
-        "goals": {
-          "home": 2,
-          "away": 3
-        }
-      },
-      {
-        "teams": {
-          "home": {
-            "id": null,
             "name": "Milford FC"
           },
           "away": {
@@ -153,27 +153,6 @@
     ]
   },
   "6006": {
-    "team_name": "Sekhukhune United",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Richards Bay"
-          },
-          "away": {
-            "id": null,
-            "name": "Sekhukhune United"
-          }
-        },
-        "goals": {
-          "home": 2,
-          "away": 3
-        }
-      }
-    ]
-  },
-  "6007": {
     "team_name": "Mamelodi Sundowns",
     "matches": [
       {
@@ -210,7 +189,7 @@
       }
     ]
   },
-  "6008": {
+  "6007": {
     "team_name": "Siwelele",
     "matches": [
       {
@@ -226,6 +205,27 @@
         },
         "goals": {
           "home": 3,
+          "away": 0
+        }
+      }
+    ]
+  },
+  "6008": {
+    "team_name": "Chippa United",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Chippa United"
+          },
+          "away": {
+            "id": null,
+            "name": "Milford FC"
+          }
+        },
+        "goals": {
+          "home": 0,
           "away": 0
         }
       }
