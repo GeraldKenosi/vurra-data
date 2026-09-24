@@ -33,6 +33,22 @@
           "home": 1,
           "away": 2
         }
+      },
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Golden Arrows"
+          },
+          "away": {
+            "id": null,
+            "name": "Stellenbosch FC"
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 0
+        }
       }
     ]
   },
@@ -68,22 +84,6 @@
           },
           "away": {
             "id": null,
-            "name": "Durban City"
-          }
-        },
-        "goals": {
-          "home": 1,
-          "away": 1
-        }
-      },
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Milford FC"
-          },
-          "away": {
-            "id": null,
             "name": "Richards Bay"
           }
         },
@@ -111,27 +111,6 @@
     ]
   },
   "6004": {
-    "team_name": "Durban City",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Milford FC"
-          },
-          "away": {
-            "id": null,
-            "name": "Durban City"
-          }
-        },
-        "goals": {
-          "home": 1,
-          "away": 1
-        }
-      }
-    ]
-  },
-  "6005": {
     "team_name": "Richards Bay",
     "matches": [
       {
@@ -152,7 +131,7 @@
       }
     ]
   },
-  "6006": {
+  "6005": {
     "team_name": "Mamelodi Sundowns",
     "matches": [
       {
@@ -189,7 +168,7 @@
       }
     ]
   },
-  "6007": {
+  "6006": {
     "team_name": "Siwelele",
     "matches": [
       {
@@ -210,7 +189,7 @@
       }
     ]
   },
-  "6008": {
+  "6007": {
     "team_name": "Chippa United",
     "matches": [
       {
@@ -226,6 +205,27 @@
         },
         "goals": {
           "home": 0,
+          "away": 0
+        }
+      }
+    ]
+  },
+  "6008": {
+    "team_name": "Stellenbosch FC",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Golden Arrows"
+          },
+          "away": {
+            "id": null,
+            "name": "Stellenbosch FC"
+          }
+        },
+        "goals": {
+          "home": 1,
           "away": 0
         }
       }
