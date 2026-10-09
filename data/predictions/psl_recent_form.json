@@ -33,22 +33,6 @@
           "home": 1,
           "away": 2
         }
-      },
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Golden Arrows"
-          },
-          "away": {
-            "id": null,
-            "name": "Stellenbosch FC"
-          }
-        },
-        "goals": {
-          "home": 1,
-          "away": 0
-        }
       }
     ]
   },
@@ -190,6 +174,48 @@
     ]
   },
   "6007": {
+    "team_name": "Sekhukhune United",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Sekhukhune United"
+          },
+          "away": {
+            "id": null,
+            "name": "TS Galaxy"
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 0
+        }
+      }
+    ]
+  },
+  "6008": {
+    "team_name": "TS Galaxy",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Sekhukhune United"
+          },
+          "away": {
+            "id": null,
+            "name": "TS Galaxy"
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 0
+        }
+      }
+    ]
+  },
+  "6009": {
     "team_name": "Chippa United",
     "matches": [
       {
@@ -205,27 +231,6 @@
         },
         "goals": {
           "home": 0,
-          "away": 0
-        }
-      }
-    ]
-  },
-  "6008": {
-    "team_name": "Stellenbosch FC",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Golden Arrows"
-          },
-          "away": {
-            "id": null,
-            "name": "Stellenbosch FC"
-          }
-        },
-        "goals": {
-          "home": 1,
           "away": 0
         }
       }
