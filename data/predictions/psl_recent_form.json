@@ -1,47 +1,5 @@
 {
   "6001": {
-    "team_name": "Durban City",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Durban City"
-          },
-          "away": {
-            "id": null,
-            "name": "AmaZulu FC"
-          }
-        },
-        "goals": {
-          "home": 1,
-          "away": 2
-        }
-      }
-    ]
-  },
-  "6002": {
-    "team_name": "AmaZulu FC",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Durban City"
-          },
-          "away": {
-            "id": null,
-            "name": "AmaZulu FC"
-          }
-        },
-        "goals": {
-          "home": 1,
-          "away": 2
-        }
-      }
-    ]
-  },
-  "6003": {
     "team_name": "Golden Arrows",
     "matches": [
       {
@@ -78,7 +36,7 @@
       }
     ]
   },
-  "6004": {
+  "6002": {
     "team_name": "Kaizer Chiefs",
     "matches": [
       {
@@ -99,7 +57,7 @@
       }
     ]
   },
-  "6005": {
+  "6003": {
     "team_name": "Milford FC",
     "matches": [
       {
@@ -117,10 +75,26 @@
           "home": 5,
           "away": 1
         }
+      },
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Chippa United"
+          },
+          "away": {
+            "id": null,
+            "name": "Milford FC"
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 0
+        }
       }
     ]
   },
-  "6006": {
+  "6004": {
     "team_name": "Richards Bay",
     "matches": [
       {
@@ -141,7 +115,7 @@
       }
     ]
   },
-  "6007": {
+  "6005": {
     "team_name": "Mamelodi Sundowns",
     "matches": [
       {
@@ -178,7 +152,7 @@
       }
     ]
   },
-  "6008": {
+  "6006": {
     "team_name": "Siwelele",
     "matches": [
       {
@@ -199,7 +173,7 @@
       }
     ]
   },
-  "6009": {
+  "6007": {
     "team_name": "Sekhukhune United",
     "matches": [
       {
@@ -220,7 +194,7 @@
       }
     ]
   },
-  "6010": {
+  "6008": {
     "team_name": "TS Galaxy",
     "matches": [
       {
@@ -232,6 +206,27 @@
           "away": {
             "id": null,
             "name": "TS Galaxy"
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 0
+        }
+      }
+    ]
+  },
+  "6009": {
+    "team_name": "Chippa United",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Chippa United"
+          },
+          "away": {
+            "id": null,
+            "name": "Milford FC"
           }
         },
         "goals": {
