@@ -1,7 +1,65 @@
 {
   "6001": {
+    "team_name": "Chippa United",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Chippa United"
+          },
+          "away": {
+            "id": null,
+            "name": "Kruger United"
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 1
+        }
+      }
+    ]
+  },
+  "6002": {
+    "team_name": "Kruger United",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Chippa United"
+          },
+          "away": {
+            "id": null,
+            "name": "Kruger United"
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 1
+        }
+      }
+    ]
+  },
+  "6003": {
     "team_name": "Golden Arrows",
     "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Golden Arrows"
+          },
+          "away": {
+            "id": null,
+            "name": "Milford FC"
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 1
+        }
+      },
       {
         "teams": {
           "home": {
@@ -17,7 +75,12 @@
           "home": 0,
           "away": 0
         }
-      },
+      }
+    ]
+  },
+  "6004": {
+    "team_name": "Milford FC",
+    "matches": [
       {
         "teams": {
           "home": {
@@ -26,17 +89,33 @@
           },
           "away": {
             "id": null,
-            "name": "Mamelodi Sundowns"
+            "name": "Milford FC"
           }
         },
         "goals": {
-          "home": 1,
-          "away": 2
+          "home": 0,
+          "away": 1
+        }
+      },
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Milford FC"
+          },
+          "away": {
+            "id": null,
+            "name": "Richards Bay"
+          }
+        },
+        "goals": {
+          "home": 5,
+          "away": 1
         }
       }
     ]
   },
-  "6002": {
+  "6005": {
     "team_name": "Kaizer Chiefs",
     "matches": [
       {
@@ -73,28 +152,7 @@
       }
     ]
   },
-  "6003": {
-    "team_name": "Milford FC",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Milford FC"
-          },
-          "away": {
-            "id": null,
-            "name": "Richards Bay"
-          }
-        },
-        "goals": {
-          "home": 5,
-          "away": 1
-        }
-      }
-    ]
-  },
-  "6004": {
+  "6006": {
     "team_name": "Richards Bay",
     "matches": [
       {
@@ -115,7 +173,7 @@
       }
     ]
   },
-  "6005": {
+  "6007": {
     "team_name": "Mamelodi Sundowns",
     "matches": [
       {
@@ -133,26 +191,10 @@
           "home": 3,
           "away": 0
         }
-      },
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Golden Arrows"
-          },
-          "away": {
-            "id": null,
-            "name": "Mamelodi Sundowns"
-          }
-        },
-        "goals": {
-          "home": 1,
-          "away": 2
-        }
       }
     ]
   },
-  "6006": {
+  "6008": {
     "team_name": "Siwelele",
     "matches": [
       {
@@ -185,48 +227,6 @@
         "goals": {
           "home": 3,
           "away": 2
-        }
-      }
-    ]
-  },
-  "6007": {
-    "team_name": "Sekhukhune United",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Sekhukhune United"
-          },
-          "away": {
-            "id": null,
-            "name": "TS Galaxy"
-          }
-        },
-        "goals": {
-          "home": 0,
-          "away": 0
-        }
-      }
-    ]
-  },
-  "6008": {
-    "team_name": "TS Galaxy",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Sekhukhune United"
-          },
-          "away": {
-            "id": null,
-            "name": "TS Galaxy"
-          }
-        },
-        "goals": {
-          "home": 0,
-          "away": 0
         }
       }
     ]
