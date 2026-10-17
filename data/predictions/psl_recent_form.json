@@ -54,6 +54,22 @@
           "home": 0,
           "away": 0
         }
+      },
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Kaizer Chiefs"
+          },
+          "away": {
+            "id": null,
+            "name": "Siwelele"
+          }
+        },
+        "goals": {
+          "home": 3,
+          "away": 2
+        }
       }
     ]
   },
@@ -74,22 +90,6 @@
         "goals": {
           "home": 5,
           "away": 1
-        }
-      },
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Chippa United"
-          },
-          "away": {
-            "id": null,
-            "name": "Milford FC"
-          }
-        },
-        "goals": {
-          "home": 0,
-          "away": 0
         }
       }
     ]
@@ -170,6 +170,22 @@
           "home": 3,
           "away": 0
         }
+      },
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Kaizer Chiefs"
+          },
+          "away": {
+            "id": null,
+            "name": "Siwelele"
+          }
+        },
+        "goals": {
+          "home": 3,
+          "away": 2
+        }
       }
     ]
   },
@@ -206,27 +222,6 @@
           "away": {
             "id": null,
             "name": "TS Galaxy"
-          }
-        },
-        "goals": {
-          "home": 0,
-          "away": 0
-        }
-      }
-    ]
-  },
-  "6009": {
-    "team_name": "Chippa United",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Chippa United"
-          },
-          "away": {
-            "id": null,
-            "name": "Milford FC"
           }
         },
         "goals": {
