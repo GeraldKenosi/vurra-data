@@ -52,22 +52,6 @@
           },
           "away": {
             "id": null,
-            "name": "Milford FC"
-          }
-        },
-        "goals": {
-          "home": 0,
-          "away": 1
-        }
-      },
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Golden Arrows"
-          },
-          "away": {
-            "id": null,
             "name": "Kaizer Chiefs"
           }
         },
@@ -75,12 +59,7 @@
           "home": 0,
           "away": 0
         }
-      }
-    ]
-  },
-  "6004": {
-    "team_name": "Milford FC",
-    "matches": [
+      },
       {
         "teams": {
           "home": {
@@ -89,33 +68,17 @@
           },
           "away": {
             "id": null,
-            "name": "Milford FC"
+            "name": "Mamelodi Sundowns"
           }
         },
         "goals": {
-          "home": 0,
-          "away": 1
-        }
-      },
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Milford FC"
-          },
-          "away": {
-            "id": null,
-            "name": "Richards Bay"
-          }
-        },
-        "goals": {
-          "home": 5,
-          "away": 1
+          "home": 1,
+          "away": 2
         }
       }
     ]
   },
-  "6005": {
+  "6004": {
     "team_name": "Kaizer Chiefs",
     "matches": [
       {
@@ -148,6 +111,27 @@
         "goals": {
           "home": 3,
           "away": 2
+        }
+      }
+    ]
+  },
+  "6005": {
+    "team_name": "Milford FC",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Milford FC"
+          },
+          "away": {
+            "id": null,
+            "name": "Richards Bay"
+          }
+        },
+        "goals": {
+          "home": 5,
+          "away": 1
         }
       }
     ]
@@ -190,6 +174,22 @@
         "goals": {
           "home": 3,
           "away": 0
+        }
+      },
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Golden Arrows"
+          },
+          "away": {
+            "id": null,
+            "name": "Mamelodi Sundowns"
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 2
         }
       }
     ]
