@@ -1,47 +1,5 @@
 {
   "6001": {
-    "team_name": "Chippa United",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Chippa United"
-          },
-          "away": {
-            "id": null,
-            "name": "Kruger United"
-          }
-        },
-        "goals": {
-          "home": 0,
-          "away": 1
-        }
-      }
-    ]
-  },
-  "6002": {
-    "team_name": "Kruger United",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Chippa United"
-          },
-          "away": {
-            "id": null,
-            "name": "Kruger United"
-          }
-        },
-        "goals": {
-          "home": 0,
-          "away": 1
-        }
-      }
-    ]
-  },
-  "6003": {
     "team_name": "Golden Arrows",
     "matches": [
       {
@@ -78,7 +36,7 @@
       }
     ]
   },
-  "6004": {
+  "6002": {
     "team_name": "Kaizer Chiefs",
     "matches": [
       {
@@ -115,7 +73,7 @@
       }
     ]
   },
-  "6005": {
+  "6003": {
     "team_name": "Milford FC",
     "matches": [
       {
@@ -136,7 +94,7 @@
       }
     ]
   },
-  "6006": {
+  "6004": {
     "team_name": "Richards Bay",
     "matches": [
       {
@@ -157,7 +115,7 @@
       }
     ]
   },
-  "6007": {
+  "6005": {
     "team_name": "Mamelodi Sundowns",
     "matches": [
       {
@@ -194,7 +152,7 @@
       }
     ]
   },
-  "6008": {
+  "6006": {
     "team_name": "Siwelele",
     "matches": [
       {
@@ -227,6 +185,48 @@
         "goals": {
           "home": 3,
           "away": 2
+        }
+      }
+    ]
+  },
+  "6007": {
+    "team_name": "Sekhukhune United",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Sekhukhune United"
+          },
+          "away": {
+            "id": null,
+            "name": "TS Galaxy"
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 0
+        }
+      }
+    ]
+  },
+  "6008": {
+    "team_name": "TS Galaxy",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Sekhukhune United"
+          },
+          "away": {
+            "id": null,
+            "name": "TS Galaxy"
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 0
         }
       }
     ]
