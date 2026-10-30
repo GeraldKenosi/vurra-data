@@ -1,7 +1,60 @@
 {
   "6001": {
+    "team_name": "Marumo Gallants",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Marumo Gallants"
+          },
+          "away": {
+            "id": null,
+            "name": "Siwelele"
+          }
+        },
+        "goals": {
+          "home": 3,
+          "away": 2
+        }
+      },
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Sekhukhune United"
+          },
+          "away": {
+            "id": null,
+            "name": "Marumo Gallants"
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 1
+        }
+      }
+    ]
+  },
+  "6002": {
     "team_name": "Siwelele",
     "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Marumo Gallants"
+          },
+          "away": {
+            "id": null,
+            "name": "Siwelele"
+          }
+        },
+        "goals": {
+          "home": 3,
+          "away": 2
+        }
+      },
       {
         "teams": {
           "home": {
@@ -20,7 +73,7 @@
       }
     ]
   },
-  "6002": {
+  "6003": {
     "team_name": "Polokwane City",
     "matches": [
       {
@@ -41,29 +94,8 @@
       }
     ]
   },
-  "6003": {
-    "team_name": "Sekhukhune United",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Sekhukhune United"
-          },
-          "away": {
-            "id": null,
-            "name": "Marumo Gallants"
-          }
-        },
-        "goals": {
-          "home": 2,
-          "away": 1
-        }
-      }
-    ]
-  },
   "6004": {
-    "team_name": "Marumo Gallants",
+    "team_name": "Sekhukhune United",
     "matches": [
       {
         "teams": {
@@ -205,48 +237,6 @@
         "goals": {
           "home": 1,
           "away": 2
-        }
-      }
-    ]
-  },
-  "6011": {
-    "team_name": "Kaizer Chiefs",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Kaizer Chiefs"
-          },
-          "away": {
-            "id": null,
-            "name": "Stellenbosch FC"
-          }
-        },
-        "goals": {
-          "home": 1,
-          "away": 1
-        }
-      }
-    ]
-  },
-  "6012": {
-    "team_name": "Stellenbosch FC",
-    "matches": [
-      {
-        "teams": {
-          "home": {
-            "id": null,
-            "name": "Kaizer Chiefs"
-          },
-          "away": {
-            "id": null,
-            "name": "Stellenbosch FC"
-          }
-        },
-        "goals": {
-          "home": 1,
-          "away": 1
         }
       }
     ]
