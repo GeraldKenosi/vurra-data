@@ -48,8 +48,8 @@
       "home_team": "Chippa United",
       "away_team": "Siwelele",
       "prediction": "Home Win",
-      "confidence": 71,
-      "home_strength": 0.349,
+      "confidence": 84,
+      "home_strength": 0.479,
       "away_strength": 0.159,
       "home_rank": 13,
       "away_rank": 10,
@@ -57,7 +57,7 @@
       "away_points": 26,
       "home_recent_overall": 1.0,
       "away_recent_overall": 0.0,
-      "home_recent_home": 0.0,
+      "home_recent_home": 1.0,
       "away_recent_away": 0.0
     },
     {

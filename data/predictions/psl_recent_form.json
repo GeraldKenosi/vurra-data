@@ -238,6 +238,85 @@
           "home": 0,
           "away": 2
         }
+      },
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Chippa United"
+          },
+          "away": {
+            "id": null,
+            "name": "Kaizer Chiefs"
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 0
+        }
+      }
+    ]
+  },
+  "6011": {
+    "team_name": "AmaZulu FC",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "AmaZulu FC"
+          },
+          "away": {
+            "id": null,
+            "name": "Milford FC"
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 2
+        }
+      }
+    ]
+  },
+  "6012": {
+    "team_name": "Milford FC",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "AmaZulu FC"
+          },
+          "away": {
+            "id": null,
+            "name": "Milford FC"
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 2
+        }
+      }
+    ]
+  },
+  "6013": {
+    "team_name": "Kaizer Chiefs",
+    "matches": [
+      {
+        "teams": {
+          "home": {
+            "id": null,
+            "name": "Chippa United"
+          },
+          "away": {
+            "id": null,
+            "name": "Kaizer Chiefs"
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 0
+        }
       }
     ]
   }
